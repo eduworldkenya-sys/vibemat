@@ -193,6 +193,35 @@ Recommended user actions:
 
 Views can support aggregate reach and publisher analytics, but are not evidence of truth. Generic likes should not determine trust or ranking. Comments and direct messages are not assumed in the first design; they need separate moderation and privacy decisions.
 
+
+## Road observations, media, and Travel Logs
+
+Transport activity now includes two additional, distinct record families:
+
+1. **Road Pulse observations:** time-bounded reports about a road segment and direction, including smooth flow, congestion, accident/incident, hazard, obstruction, roadworks, and cleared/resolved status. Reports may include text, photographs, short video, or voice information. Every observation carries source, timestamp, location precision, direction, evidence, and freshness.
+2. **Travel Logs:** a person's record of a journey they made. A log may be manually entered or captured through an explicitly enabled assisted journey-recording mode. It may include origin/destination, stops, mode, approximate or actual duration, route changes, notes, photographs, and videos. Visibility is private by default and sharing is an explicit user action.
+
+A Travel Log is not automatically a verified road report. A user may deliberately submit a specific observation from a journey to Road Pulse, with the relevant evidence and permissions, as a separate action.
+
+## Operator-authorised live camera activity
+
+A transport operator may publish a live road-facing camera stream only through an authorised vehicle/operator account and an explicit sharing session. The public stream is a separate activity with its own source, route context, start/stop state, and privacy-processing status. Camera presence alone does not grant permission to publish footage.
+
+Interior passenger cameras are not public stream sources by default. See the privacy and processing requirements in the Road Pulse and Live Mobility specification.
+
+
+## Multi-provider marketplace participation
+
+The VibeMat transport ecosystem includes independent businesses across ride-hailing, taxis, intercity buses, scheduled shuttles, matatus and SACCOs, boda bodas, tuk-tuks, car hire, rentals, tours, parcel delivery, courier, cargo, freight, lorry/truck operations, and other relevant mobility services.
+
+Examples such as Uber, Bolt, 2NK, and Mololine are provider-category examples only. They are not evidence of partnership, API access, live inventory, or booking permission. Every provider retains its own identity, operations, prices, fulfilment, customer terms, and business model.
+
+Participation can range from a discoverable profile to provider-published activity, enquiries, an external booking handoff, or an explicitly authorised API integration. VibeMat must label the actual integration level. A listing is not availability; an enquiry is not a booking; a published trip is not a confirmed seat.
+
+The social layer lets commuters and providers contribute journey stories, privacy-protected dashcam clips, Road Pulse observations, Travel Logs, route explainers, and service updates. The same activity records can support map discovery and feed discovery. Popularity is not verification.
+
+The current payment boundary remains unchanged: VibeMat does not collect, hold, escrow, settle, or distribute fares or provider payments. Users may continue to provider-authorised booking and payment channels. Any future payment custody requires a separate explicit product and legal decision.
+
 ## Transport publishing as a creator and discovery network
 
 VibeMat's confirmed social product direction uses a TikTok-style creator and discovery model adapted to transport. Transport activity and useful transport information—not generic entertainment—are the content.
@@ -211,6 +240,7 @@ The same underlying activity may appear on the map, in open discovery, and in a 
 
 A moving vehicle or its route can be useful context for a sponsored campaign, but VibeMat must not assume that passengers inside the vehicle are VibeMat viewers. Any claim about onboard audience or exposure requires a separate consented, reliable measurement method.
 
+
 ## Confirmed wider ecosystem: people and businesses in a world in motion
 
 Transport is VibeMat's initial entry point, but the media opportunity extends to the wider movement economy. Everyone moves: commuters, workers, students, families, travellers, traders, drivers, passengers, and people moving goods. Their movement creates audiences, information needs, and contexts in which businesses may reach relevant people.
@@ -221,6 +251,8 @@ Participants may act as publishers, contributors, audiences, advertisers, or sev
 
 VibeMat is not required to own vehicles, stages, roads, fuel infrastructure, garages, shops, fleets, or logistics assets. It is not a transport operator, booking platform, dispatch service, or booking website. Where a discovery leads to a provider, the provider remains responsible for its service and any direct transaction unless a separately approved future product changes that boundary.
 
+
 ## Mainstage pilot remains the first participation test
 
 The first pilot remains online kamagera/touting at one physical Mainstage. It tests whether kamagers can publish and distribute useful stage/vehicle/departure information online and whether passengers discover and connect with the right transport opportunities. It does not test or launch a general booking marketplace, all transport categories, or a full advertising/creator monetisation programme.
+

@@ -230,6 +230,17 @@ The experience is a product hypothesis until tested with real passengers. Test w
 
 Measure actual usefulness, accuracy, repeat use, and user understanding. Do not claim time savings or daily retention without evidence.
 
+
+## Map gestures, normal routes, and predictive journeys
+
+The map remains the opening experience. A compact bottom panel previews useful nearby transport and road information. Swiping up expands the panel into a full-screen discovery and journey-planning view; swiping down returns to the map. The expanded content may scroll internally. Gestures must have visible accessible alternatives.
+
+Ken can choose a **normal route** to see a route through known roads, walking links, stages, and supported transport connections, or a **predictive route** to see estimates that account for time, fresh road observations, waiting, and other supported evidence. Predictive estimates must show uncertainty and freshness and must not be presented as guaranteed arrival times.
+
+## Road Pulse and Travel Logs
+
+While travelling, Ken may submit a quick road observation or attach photo/video/voice evidence. He may separately save a Travel Log documenting a completed or ongoing journey. Travel Logs are private by default; publishing is deliberate. A log does not automatically become a verified road report.
+
 ## Wider audience thesis: everyone moves
 
 Ken is the first passenger persona, not the definition of the entire VibeMat audience. The broader network serves people in many movement contexts: commuters, workers, students, traders, families, visitors, tourists, drivers, passengers, and people arranging the movement of goods.
@@ -239,3 +250,4 @@ The experience may help people discover useful movement-related information and 
 VibeMat is a discovery and media network, not a booking platform or transport operator. A discovery may lead a person to contact or transact directly with an independent provider or an external service. VibeMat must not imply that it guarantees availability, performs the service, or owns the resulting transaction.
 
 The map and discovery surfaces should remain useful for both immediate practical information and wider exploration. The audience is people in motion and people interested in movement—not only passengers looking for a ride.
+
