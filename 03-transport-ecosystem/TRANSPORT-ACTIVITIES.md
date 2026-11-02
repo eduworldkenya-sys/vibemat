@@ -120,3 +120,28 @@ For a stage, distinguish at minimum:
 - Vehicle has departed.
 
 These are different facts and may require different evidence. Do not compress them into one “bus at stage” status.
+
+## Proposed GPS stationary and public-presence lifecycle
+
+GPS tracking state, physical vehicle state, and public map visibility are separate concepts.
+
+Proposed behaviour when a vehicle's authorised GPS source detects that it has remained stationary:
+1. After a configurable stationary threshold, classify the vehicle as **Parked / Stationary** if the evidence is reliable enough.
+2. Automatically suspend public exact-GPS visibility and stop presenting the last precise coordinate as a current public position.
+3. Keep the exact position available only to the vehicle owner or authorised operator in their authenticated account, according to permissions.
+4. Allow the owner/operator to deliberately resume public GPS sharing, optionally as a short time-limited session.
+5. When the vehicle moves again, do not silently assume public sharing should resume; apply the participant's sharing preference and clearly communicate the resulting status.
+
+The system must distinguish:
+- Moving with authorised live GPS.
+- Parked / stationary.
+- Public GPS sharing paused by the stationary rule.
+- GPS/device offline or signal unavailable.
+- Location stale / state unknown.
+- Operator deliberately sharing a temporary live session.
+
+A missing GPS update is not, by itself, proof of parking. GPS jitter, poor reception, device power loss, and temporary network interruption must be handled without inventing a stationary state.
+
+The stationary threshold is unresolved. Options raised for discussion are 10, 20, or 30 minutes. The final default, any category-specific rules, and temporary-session duration remain open.
+
+This is a proposed privacy and activity-state rule, not an implemented GPS capability.
