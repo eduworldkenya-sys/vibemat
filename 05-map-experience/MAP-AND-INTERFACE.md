@@ -139,3 +139,26 @@ Generic likes and public popularity counts are not recommended as core map inter
 ## Account activity and privacy
 
 A user's profile may show their followed sources/routes/stages and their own saved items. Saved/pinned items should be private by default. Following lists should have visibility controls; do not expose a passenger's routines or travel interests publicly by default. View analytics should be aggregated for publishers and must not reveal individual viewers or their location.
+
+
+## Full-screen swipe discovery and mobility layers
+
+The map remains the default full-screen canvas. The compact bottom panel previews nearby activity. A deliberate upward swipe expands discovery to a full-screen experience; a downward swipe returns to the map. The expanded view may scroll internally, but the map itself should not become a long dashboard page. Keep a visible, accessible close/back control as an alternative to gestures.
+
+The map's mobility legend should group six concepts without presenting them as six unrelated products:
+
+- **Vehicles:** bus, lorry/truck, and motorbike/boda boda.
+- **Places and infrastructure:** stages, pavilions/shelters, pickup points, and other mapped transport facilities.
+- **Pedestrian movement:** walking routes, crossings, and pedestrian-relevant conditions.
+- **Commuter:** the person and their planned, active, or recorded journey; this is a user/journey context, not a vehicle marker.
+
+Map layers can be switched on and off. Marker styles must distinguish a mapped place, declared journey, user report, verified observation, authorised live position, and historical aggregate.
+
+## Routing on the map
+
+Support two clearly named route modes:
+
+- **Normal route:** a route calculated from known roads, paths, mapped stages, and supported transport connections. Show route steps, transfers, and known limitations.
+- **Predictive route:** a time-aware estimate that may account for expected congestion, waiting, stage activity, incidents, weather where sourced, and historical travel patterns. Show estimated arrival range, confidence, evidence sources, and update time.
+
+A predictive route is an estimate, not a promise. If evidence is weak or unavailable, show the normal route and say that prediction is unavailable. See the complete specification in [Road Pulse, Routing, Live Mobility, and Travel Logs](../09-road-pulse-live-mobility/ROAD-PULSE-LIVE-MOBILITY.md).

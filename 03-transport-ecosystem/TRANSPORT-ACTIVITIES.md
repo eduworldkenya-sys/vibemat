@@ -192,3 +192,19 @@ Recommended user actions:
 - **Share:** pass a transport item to others with its source and timestamp intact.
 
 Views can support aggregate reach and publisher analytics, but are not evidence of truth. Generic likes should not determine trust or ranking. Comments and direct messages are not assumed in the first design; they need separate moderation and privacy decisions.
+
+
+## Road observations, media, and Travel Logs
+
+Transport activity now includes two additional, distinct record families:
+
+1. **Road Pulse observations:** time-bounded reports about a road segment and direction, including smooth flow, congestion, accident/incident, hazard, obstruction, roadworks, and cleared/resolved status. Reports may include text, photographs, short video, or voice information. Every observation carries source, timestamp, location precision, direction, evidence, and freshness.
+2. **Travel Logs:** a person's record of a journey they made. A log may be manually entered or captured through an explicitly enabled assisted journey-recording mode. It may include origin/destination, stops, mode, approximate or actual duration, route changes, notes, photographs, and videos. Visibility is private by default and sharing is an explicit user action.
+
+A Travel Log is not automatically a verified road report. A user may deliberately submit a specific observation from a journey to Road Pulse, with the relevant evidence and permissions, as a separate action.
+
+## Operator-authorised live camera activity
+
+A transport operator may publish a live road-facing camera stream only through an authorised vehicle/operator account and an explicit sharing session. The public stream is a separate activity with its own source, route context, start/stop state, and privacy-processing status. Camera presence alone does not grant permission to publish footage.
+
+Interior passenger cameras are not public stream sources by default. See the privacy and processing requirements in the Road Pulse and Live Mobility specification.

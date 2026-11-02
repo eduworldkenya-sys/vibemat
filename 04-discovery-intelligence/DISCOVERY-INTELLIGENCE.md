@@ -229,3 +229,14 @@ A stage waiting estimate is a different intelligence signal from vehicle presenc
 Never expose or infer individual identity, coordinates, device IDs, arrival time, or waiting duration. Do not equate stationary phones with waiting passengers or raw device count with people count. Suppress the estimate when the group is too small, evidence is weak, or the estimate is stale. Label any displayed count as approximate and show its time window/freshness.
 
 The minimum threshold, time window, estimation method, and retention policy remain open pending privacy review. This capability is a design candidate, not an implemented feature.
+
+
+## Road Pulse evidence and predictive routing
+
+Road Pulse contributes time-bounded, direction-aware observations to transport intelligence. The engine must cluster correlated reports (for example, several passengers on the same bus) and distinguish them from independent observations made by another vehicle travelling in the opposite direction. Correlated reports may add witness detail, but must not be counted as fully independent sources.
+
+The five-minute rule is an observation-freshness window, not an automatic incident-resolution timer. When the last fresh observation expires, mark the road state stale/unconfirmed unless new evidence arrives. Never infer that an accident has cleared solely because five minutes passed. A smooth-flow report does not cancel an accident report unless it is relevant to the same segment/direction and the incident's status is independently reassessed.
+
+Normal routing uses the known network. Predictive routing estimates likely journey conditions using appropriately sourced live reports, time-dependent patterns, and available transport declarations. Prediction outputs must include uncertainty, source/freshness context, and an honest unavailable state when evidence is insufficient.
+
+Video, photos, voice, and text can support evidence assessment, but media duplication is not independent corroboration. Machine-detected events are candidate observations until validated by the applicable evidence policy.

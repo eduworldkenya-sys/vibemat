@@ -222,3 +222,33 @@ This is an agreed starting hypothesis. The specific operator, route, campaign fo
 ## Next blueprint activity: first release and pilot scope
 
 Define the smallest end-to-end VibeMat release that can test passenger usefulness, operator publishing value, trustworthy transport information, and the first operator-reach experiment without prematurely building every role or revenue stream.
+
+
+## Road Pulse, live mobility, and Travel Logs — new product direction
+
+The following capabilities are now part of the agreed product direction. Their detailed implementation and policy parameters remain open; this documentation does not authorise application coding or deployment.
+
+### Agreed product behaviour
+
+- The map is the default full-screen experience. An upward swipe expands discovery to full screen; a downward swipe returns to the map.
+- The map represents vehicles (bus, lorry/truck, motorbike/boda boda), places/infrastructure (stages and pavilions), pedestrian movement, and commuter journeys as distinct concepts/layers.
+- VibeMat supports normal route calculation and predictive, time-aware route estimates.
+- Road Pulse accepts structured reports for smooth flow, congestion, accidents/incidents, hazards, obstructions, roadworks, and cleared/resolved conditions.
+- Road observations have a five-minute freshness window. Expiry makes an observation stale; it does not automatically resolve an incident.
+- Reports may carry text, photo, video, or voice evidence. Correlated witnesses from the same vehicle must be distinguished from independent vehicles/sources.
+- Travel Logs let users record and optionally share journeys, including route, stops, mode, notes, and media. They are private by default and distinct from Road Pulse reports.
+- Authorised transport operators may opt into live road-facing vehicle-camera streams, provided privacy processing happens before publication. Interior passenger cameras are not public by default.
+
+### Open implementation and policy decisions
+
+- Map provider, offline map rights, route graph quality, walking and public-transport routing data, and supported transfer modelling.
+- Prediction methodology, training/validation data, confidence calibration, arrival-time ranges, and minimum evidence thresholds.
+- Road segment matching, direction inference, report deduplication, same-vehicle correlation, independent-source weighting, dispute handling, and incident-state transitions.
+- Exact five-minute freshness semantics under poor connectivity and whether event-specific observation windows need separate configuration.
+- Media size/duration limits, supported formats, storage, bandwidth adaptation, moderation, evidence retention, deletion, and abuse handling.
+- Camera hardware compatibility, operator/SACCO authorisation, notices, lawful basis, stream access, latency, processing location, fail-closed behaviour, and recording policy.
+- Face/plate/sensitive-information detection quality, missed-detection handling, privacy QA, and incident response. No automated privacy filter is assumed perfect.
+- Travel Log assisted-capture consent, battery/data usage, manual correction, visibility controls, home/destination protection, retention, export, and deletion.
+- Offline report queueing, duplicate prevention, upload conflict resolution, and explicit separation of cached from live data.
+
+These decisions require product, technical, safety, and legal review before implementation or public launch.

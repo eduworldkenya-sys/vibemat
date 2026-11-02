@@ -40,6 +40,7 @@ VibeMat will not collect, hold, escrow, settle, or distribute passenger fares or
 - [Map and interface](05-map-experience/MAP-AND-INTERFACE.md)
 - [Business model boundaries](06-business-model/BUSINESS-MODEL.md)
 - [Privacy and trust](07-privacy-and-trust/PRIVACY-AND-TRUST.md)
+- [Road Pulse, routing, live mobility, and Travel Logs](09-road-pulse-live-mobility/ROAD-PULSE-LIVE-MOBILITY.md)
 - [Open decisions and backlog](08-open-decisions/OPEN-DECISIONS.md)
 
 ## Decision language

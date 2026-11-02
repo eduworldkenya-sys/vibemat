@@ -229,3 +229,14 @@ The experience is a product hypothesis until tested with real passengers. Test w
 - Trust the source and freshness of what he sees.
 
 Measure actual usefulness, accuracy, repeat use, and user understanding. Do not claim time savings or daily retention without evidence.
+
+
+## Map gestures, normal routes, and predictive journeys
+
+The map remains the opening experience. A compact bottom panel previews useful nearby transport and road information. Swiping up expands the panel into a full-screen discovery and journey-planning view; swiping down returns to the map. The expanded content may scroll internally. Gestures must have visible accessible alternatives.
+
+Ken can choose a **normal route** to see a route through known roads, walking links, stages, and supported transport connections, or a **predictive route** to see estimates that account for time, fresh road observations, waiting, and other supported evidence. Predictive estimates must show uncertainty and freshness and must not be presented as guaranteed arrival times.
+
+## Road Pulse and Travel Logs
+
+While travelling, Ken may submit a quick road observation or attach photo/video/voice evidence. He may separately save a Travel Log documenting a completed or ongoing journey. Travel Logs are private by default; publishing is deliberate. A log does not automatically become a verified road report.

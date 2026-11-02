@@ -120,3 +120,16 @@ Users may follow transport sources and objects such as operators, contributors, 
 Every item should identify its publisher/source, publication or observation time, information type (for example declaration, report, or verified update), current status, and evidence/freshness where relevant. Community feedback can help assess an individual post, but popularity must never be treated as proof of accuracy.
 
 **Recommended interaction model:** follow, save/pin, share, and structured feedback (confirm, dispute, report incorrect/outdated/unsafe). Views may be measured as aggregate reach/analytics, not treated as trust. Avoid generic like-count competition as a primary transport signal. Free-form comments and direct messaging are not assumed; they require separate abuse, privacy, and moderation decisions.
+
+
+## Road Pulse, routing, live media, and travel history
+
+The product direction now includes a community-powered road intelligence capability called **Road Pulse**, normal and predictive journey routing, operator-authorised privacy-processed live vehicle streams, and user-controlled Travel Logs. The complete behaviour and safeguards are specified in [Road Pulse, Routing, Live Mobility, and Travel Logs](../09-road-pulse-live-mobility/ROAD-PULSE-LIVE-MOBILITY.md).
+
+These capabilities extend the existing three-part architecture; they do not create separate apps or replace the living map.
+
+- Road observations are evidence records with road segment, direction, source, timestamp, freshness, and verification state.
+- Normal routing calculates a route from the mapped network and known transport connections. Predictive routing adds time-dependent estimates and confidence without presenting estimates as facts.
+- Live video is a separately authorised media source. Only privacy-processed output may be distributed.
+- Travel Logs are user-controlled journey records and remain distinct from live road reports.
+- Offline data is cached and labelled with its last-updated time; offline state must never masquerade as live intelligence.
