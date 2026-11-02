@@ -80,3 +80,25 @@ For each new idea, record:
 ## Current next product task
 
 Continue refining Ken's passenger experience: identify the specific decisions and useful information VibeMat provides that Ken cannot get simply by walking to Eastmar, Allsops, or Drive-In stage. Do this before defining provider workflows or implementation.
+
+## New product focus: Ken's 5:00 AM decision
+
+**Agreed product requirement:** the product must offer meaningful decision-support before Ken reaches a stage. Merely displaying nearby stage names is insufficient because he already knows those stages.
+
+**Proposed first use case:** a map-first morning briefing that compares available, trustworthy activity around Eastmar, Allsops, and Drive-In and provides relevant journey, road, traffic, and weather context when reliable sources exist.
+
+### Decisions still open
+- Which single passenger decision should the first release optimise: when to leave, which stage to walk to, which route to take, or which declared journey to inspect?
+- What is the minimum reliable data needed to compare stage activity?
+- Which stage/operator sources can publish updates, and how will their identity be verified?
+- How fresh must a stage report be before it is shown as current?
+- Should Ken choose a destination/time each morning, or can the app suggest a briefing from his own saved patterns?
+- Which road/traffic and weather sources are acceptable?
+- What should the app show when no reliable live data is available?
+- Which functions should remain useful offline, and how should cached data be labelled?
+
+### Validation requirement
+The 5:00 AM experience is a product hypothesis until tested with real passengers. Measure whether it helps users make a better decision than their current process; do not assume daily retention or time savings.
+
+### Next task
+Specify the exact information hierarchy and interactions for Ken's morning map, then define the evidence/source requirements for every displayed status. Do not begin coding until these are agreed.
