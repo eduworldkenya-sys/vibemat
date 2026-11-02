@@ -9,99 +9,223 @@ Ken is the first customer used to test VibeMat's product logic.
 - Allsops and Drive-In are also nearby.
 - He commonly travels toward Industrial Area and town.
 - He may use different transport modes depending on the trip.
+- Ken is a passenger/customer in these scenarios. Using a boda boda or another mode does not make him a transport provider.
 
-Ken is a passenger/customer in these scenarios. Using a boda boda or another mode does not make him a transport provider.
+## The key product definition
 
-## The key product test
+**Agreed:** Ken's dashboard is fundamentally a living transport map, not a conventional dashboard made of statistics, shortcuts, and cards.
 
-Ken already knows nearby stages and can walk to them. VibeMat must offer value beyond repeating that a stage exists.
+The map is the main canvas. It understands Ken's context, helps him discover transport activity across the network, and supports better-informed decisions.
 
-It should help him understand what is happening, what is planned, what may be useful, and how transport activity relates to his needs—without requiring him to search first.
+The experience has three simultaneous characteristics:
+1. **Personal:** use permitted location context, saved routes, travel patterns, and expressed interests to make discovery useful.
+2. **Open:** make eligible activity across the wider transport network discoverable, including activity unrelated to Ken's immediate journey.
+3. **Intelligent:** identify relevant opportunities, changes, route overlaps, and patterns without requiring Ken to search first.
 
-## Morning discovery scenario
+**Agreed:** The map should show all transport activity eligible for discovery, not only activity relevant to Ken's commute. Intelligence should highlight relevant items without hiding the wider network.
 
-Ken opens VibeMat at 5:00 AM. He is not yet ready to leave for town.
+## Two simultaneous discovery modes
 
-The experience may surface:
-- Nearby stages and transport activity.
-- Declared departures and route activity, with their times and sources.
-- Vehicles or operators present in a stage where that presence is reliably reported.
-- Road and traffic insights when a credible source is available.
-- Weather information when an appropriate source is connected.
-- Nearby boda boda or other transport activity, clearly distinguished from confirmed availability.
-- Relevant activity along routes Ken commonly uses.
-- Planned trips and useful discoveries elsewhere.
+1. **Open network discovery:** Ken can explore transport activity across the map and beyond his immediate neighbourhood, usual routes, and preferred modes.
+2. **Relevant opportunity discovery:** VibeMat proactively highlights journeys, capacity declarations, route overlaps, departures, disruptions, and insights that may matter to Ken.
 
-The app must not pretend to know a vehicle is physically at a stage or ready to depart unless the information supports that claim.
+Neither mode replaces the other. Relevant opportunities can be prioritised, but open discovery remains accessible. If no credible relevant opportunity exists, do not manufacture one; open discovery remains useful.
+
+A discovery is not automatically a recommendation, service offer, confirmed booking, guaranteed seat, or guaranteed departure.
+
+## Ken's full-day experience
+
+The map remains the primary interface throughout the day. The information emphasis changes with time, Ken's actual context, and available evidence. These are contextual priorities, not fixed schedules or assumptions that Ken follows a conventional workday.
+
+### 5:00 AM — Prepare before leaving
+
+**Main question:** How should I start my journey?
+
+Potential emphasis:
+- Nearby stages such as Eastmar, Allsops, and Drive-In.
+- Relevant transport activity and recent stage reports.
+- Declared journeys and departure windows.
+- Explicitly declared passenger availability or capacity.
+- Relevant activity along saved or selected routes.
+- Sourced traffic, road disruption, and weather information.
+- Meaningful changes since Ken last checked, if history supports them.
+- Open discovery beyond his commute.
+
+Help Ken decide when to leave, which stage to inspect, which route or journey to consider, or what needs direct confirmation.
+
+### 8:00 AM — Understand active movement
+
+**Main question:** What is happening along my journey and across the network?
+
+Potential emphasis:
+- Relevant activity along a route Ken selected or follows.
+- Fresh, authorised live vehicle positions where sharing is enabled.
+- Reported stage activity and transport changes.
+- Sourced road incidents, traffic, and alternatives.
+- Relevant activity around his destination or current selected area.
+- Open discovery elsewhere.
+
+Do not claim to track Ken or his vehicle unless the required location sharing is active and authorised.
+
+### 10:00 AM — Explore the wider network
+
+**Main question:** What is happening across the transport network?
+
+Potential emphasis:
+- Open discovery of different transport types and journeys.
+- New routes, published trips, and transport activity.
+- Possible route overlaps or opportunities relevant to Ken.
+- Movement and corridor patterns supported by sufficient evidence.
+- Discoveries beyond Ken's usual routes and modes.
+
+Do not turn this into a passive entertainment feed. The purpose remains transport discovery and intelligence.
+
+### 2:00 PM — Discover activity and opportunities
+
+**Main question:** What new transport activity or useful opportunity has appeared?
+
+Potential emphasis:
+- Newly published or updated journeys.
+- Future departures and declared capacity.
+- Passenger or cargo opportunities where explicitly declared.
+- Route overlaps and possible journey matches.
+- Changes in stage or corridor activity.
+- Wider network discoveries.
+
+A possible match is an invitation to inspect or contact the publisher where enabled, not a confirmed arrangement.
+
+### 4:00 PM — Prepare for the return journey
+
+**Main question:** What are my options for getting home or to my next destination?
+
+Potential emphasis:
+- Declared journeys in the relevant direction.
+- Departure windows and explicitly declared availability.
+- Activity near Ken's selected workplace or current area.
+- Routes, transfer points, and alternatives.
+- Sourced traffic or disruption information.
+- Open discovery beyond the likely return route.
+
+Do not assume Ken is always returning to Babadogo; use his selected destination or permitted context.
+
+### 6:00 PM — Understand evening movement
+
+**Main question:** What has changed, and what should I consider now?
+
+Potential emphasis:
+- Fresh activity along the selected return route.
+- Updated or withdrawn journey declarations.
+- Stage reports, departures, and availability declarations.
+- Sourced traffic and disruptions.
+- Relevant alternatives and nearby transport activity.
+- Wider network discovery.
+
+Do not treat an earlier declaration as current if it has expired or been superseded.
+
+### 9:00 PM — Prepare for tomorrow and explore
+
+**Main question:** What should I know before tomorrow?
+
+Potential emphasis:
+- Journeys already published for the next day.
+- Saved routes and usual travel patterns.
+- Known planned road changes or disruptions where sourced.
+- Relevant activity around usual stages.
+- Personal travel trends and meaningful changes.
+- Open discovery across the network.
+
+A planned journey remains planned, not guaranteed. Do not assume Ken is going to travel tomorrow.
+
+## Time, context, and evidence
+
+Time should influence the dashboard, but time alone must not control it.
+
+Use three inputs:
+1. **Time:** what information may be useful at this hour?
+2. **Context:** Ken's permitted current or selected area, saved routes, declared destination, and expressed interests.
+3. **Transport intelligence:** what is actually known, from which source, how fresh it is, and what it supports.
+
+If Ken works at night, travels midday, changes destination, or makes an unexpected trip, the experience adapts to his context rather than forcing a commuter schedule.
+
+Personalisation must never geographically confine Ken or hide the wider network.
+
+## What appears on opening
+
+The map is immediately available. Eligible transport activity is discoverable across the visible map area. A compact, dismissible briefing highlights the most useful current discoveries and opportunities.
+
+- Do not require a search or destination before Ken can explore.
+- Do not cover the map with a long feed.
+- Let Ken pan, zoom, search, change layers, inspect markers, and explore other locations.
+- Explain why an item is highlighted when the reason is supported by data.
+- Do not invent activity to fill empty space.
 
 ## Discovery beyond the commute
 
-Ken may see transport activity unrelated to his immediate trip:
-- A lorry passing through Babadogo.
-- A bus planning a long-distance journey.
+Ken may discover:
+- A lorry travelling through Babadogo.
+- A bus publishing a long-distance journey.
 - A pickup carrying goods.
 - A van operating on a declared corridor.
 - A journey with spare capacity.
-- A full vehicle whose movement is still relevant to transport intelligence.
+- A full vehicle whose movement remains relevant to transport intelligence.
+- Activity in another neighbourhood, county, or supported region.
 
-A lorry can be discoverable even when it is not seeking customers. Discovery is not the same as a service offer.
+A vehicle can be discoverable even when it is not seeking customers. Discovery is not the same as a service offer.
 
-## Map exploration
+## What actions Ken can take
 
-Ken can:
-- Inspect nearby activity.
-- Explore another stage.
-- Pan toward a different neighbourhood or town.
-- Inspect a route or corridor.
-- Tap a vehicle or activity marker.
-- Open more detail about an operator or journey.
+Recommended default actions:
+- Inspect a stage, vehicle activity, route, journey, or operator.
+- Expand details to see source, status, time, freshness, and relevant evidence.
+- Save or follow a route, area, operator, or activity for later reference.
+- Refine discovery by area, time, transport type, or declared destination.
+- Contact a publisher only when the publisher intentionally enables contact.
+- Report incorrect, misleading, unsafe, or outdated information.
+- Dismiss a card without losing the ability to explore the map.
 
-Personal relevance may influence what is initially surfaced, but must not lock Ken inside Babadogo or his usual commute.
+VibeMat does not dispatch a vehicle, guarantee a booking, hold passenger fares, or decide whether Ken should board.
 
-## Questions the experience must answer
+## Offline and low-data behaviour
 
-- What is happening near me?
-- What transport activity is planned?
-- What is actually available to take a request?
-- What is moving now, and how do we know?
-- What are the likely departure times?
-- What are the reported fares, and who reported them?
-- What is happening along my route?
-- What other transport activity could be useful to discover?
-- How fresh and trustworthy is this information?
+- Keep the map and previously cached information usable where technically available.
+- Show the last update time on cached, time-sensitive information.
+- Never label cached information as live or current.
+- Do not infer that a vehicle remains present or available from an old location.
+- Clearly distinguish no network, GPS unavailable, stale data, and no recent reports.
+- Disable or qualify actions that require live confirmation.
+- Avoid fabricated zeroes, activity counts, rankings, traffic, weather, or availability.
 
-## Experience quality rule
+## Why Ken returns
 
-Every discovery should make clear what it is, where it relates to, when it applies, and whether it is planned, declared, reported, verified live, or historical.
+VibeMat should earn repeat use through genuine changes and useful discoveries:
+- New journeys and activity since his last visit.
+- Relevant updates to saved routes and areas.
+- New opportunities or route overlaps.
+- Useful changes in stage or corridor patterns.
+- Timely, evidence-backed travel context.
+- Open discoveries across the transport network.
 
-## Why Ken opens VibeMat before walking to the stage
+Notifications should be opt-in and meaningful, explain why the user is receiving them, respect quiet periods and frequency controls, and avoid alerting on stale, duplicate, or weakly supported information. No notification should imply guaranteed availability or movement.
 
-Ken already knows his nearby stages. Simply displaying Eastmar, Allsops, and Drive-In adds little value. VibeMat earns an opening when it gives him a more complete, timely picture than he can get by walking to one stage and asking around.
+## Trust and evidence rules
 
-At 5:00 AM, before he is ready to leave, Ken can:
-- Check declared journeys and expected departure windows.
-- Compare transport activity reported at Eastmar, Allsops, and Drive-In, where reliable data exists.
-- See which providers have explicitly declared that they are accepting requests or have spare capacity.
-- Distinguish a vehicle that is merely visible from one confirmed to be present, available, or departing.
-- Inspect road and traffic reports along a likely journey, where sourced.
-- See weather context where a reliable weather source is available.
-- Discover relevant route changes, planned trips, or alternative corridors.
-- Review useful activity elsewhere on the map without being confined to his usual commute.
+Every time-sensitive item should make clear what it is, where it relates to, when it applies, its source, and whether it is planned, declared, reported, verified live, stale, or historical.
 
-The outcome is not necessarily a booking. It may be a better-informed decision about when to leave, which stage to walk to, which route to consider, or whether to wait for more information.
+- A planned departure is not guaranteed.
+- A report is not verified presence.
+- A visible vehicle is not necessarily available.
+- A route line is not proof of live movement.
+- Historical and cached information must never be presented as current.
+- Missing evidence is unknown, not proof that something does not exist.
+- Do not invent traffic, weather, fare, availability, or journey information.
 
-### What VibeMat must know—and what it must not pretend to know
+## Success criteria and validation
 
-It may know a planned departure because an operator declared it. It may know a stage is busy because recent reports support that conclusion. It may know a vehicle is moving only if an appropriately fresh live source supports that claim.
+The experience is a product hypothesis until tested with real passengers. Test whether Ken can:
+- Discover useful transport activity without searching.
+- Make a more informed decision before walking to a stage.
+- Understand the difference between planned, reported, available, live, and historical information.
+- Explore beyond his usual routes without losing relevant discoveries.
+- Trust the source and freshness of what he sees.
 
-It must not infer that a bus is at Eastmar because it usually operates there, that a vehicle is ready because it is visible on a map, or that a departure is guaranteed because it was planned.
-
-### Decision outcome
-
-The morning experience should help Ken answer:
-1. What are my realistic transport options right now?
-2. What is known about each option, and how recent is it?
-3. What remains uncertain?
-4. What is the most sensible next step for me?
-
-This is a decision-support experience, not an automated transport dispatcher.
+Measure actual usefulness, accuracy, repeat use, and user understanding. Do not claim time savings or daily retention without evidence.
