@@ -127,6 +127,6 @@ A vehicle's GPS being enabled must not mean that its precise position remains pu
 
 The stationary timer must use reliable GPS/device evidence and tolerate temporary signal loss or GPS jitter. A lack of updates alone must not be described as proof that a vehicle is parked. If the system cannot determine the state confidently, show an honest unknown/stale state and protect the last precise location from public display.
 
-**Threshold is not yet decided:** 10, 20, or 30 minutes have been raised for consideration. The final default, any vehicle/operator-specific configuration, and the rules for resuming public sharing remain open.
+**Agreed default threshold: 20 minutes.** After reliable stationary detection for 20 minutes, suspend public exact-GPS visibility and do not display the last precise position publicly. The owner/authorised operator can still access exact location in their authenticated account and may deliberately resume public sharing. This is a product rule, not an implemented GPS capability. Category-specific exceptions and temporary-session duration remain open.
 
 This protection is about public exposure of precise location. It does not require deleting the private location record immediately; retention and deletion periods require a separate policy.
