@@ -229,3 +229,25 @@ A stage waiting estimate is a different intelligence signal from vehicle presenc
 Never expose or infer individual identity, coordinates, device IDs, arrival time, or waiting duration. Do not equate stationary phones with waiting passengers or raw device count with people count. Suppress the estimate when the group is too small, evidence is weak, or the estimate is stale. Label any displayed count as approximate and show its time window/freshness.
 
 The minimum threshold, time window, estimation method, and retention policy remain open pending privacy review. This capability is a design candidate, not an implemented feature.
+
+## Confirmed direction: TikTok-style open discovery, following, and recommendations
+
+VibeMat will use a TikTok-style discovery model adapted to transport. The product direction includes both an open recommendation feed and a Following feed, alongside the living map.
+
+### Distribution surfaces
+- **Open discovery / For You-style feed:** recommends eligible transport activity and useful transport content from across the network, including publishers the user does not follow.
+- **Following feed:** shows eligible new and updated items from followed contributors, operators, routes, corridors, stages, and activities.
+- **Map discovery:** presents the same underlying activity spatially.
+- These are distribution surfaces over shared records, not separate content databases.
+
+### Recommendation signals and guardrails
+Recommendations may consider explicit interests, followed sources, selected/current area, route/time relevance, freshness, content diversity, and prior meaningful actions. Attention signals can inform distribution but must not become proof of truth or quality. Evidence eligibility, permissions, privacy, freshness, contradiction checks, and safety screening must precede ranking.
+
+Views, impressions, watch/consumption events, and follows are Attention analytics. Saves and enquiries are Intent. Verified boarding, delivery, or fulfilled service are Outcomes only when supported by credible measurement. Confirmations, disputes, corrections, and source history remain separate trust evidence. Do not optimise solely for watch time, raw views, or popularity.
+
+### Sponsored distribution
+Sponsored transport or business content may be inserted into relevant discovery contexts, including route- or area-aware feed/map placements, only with clear paid labels and commercial separation from organic ranking and factual verification. Payment cannot buy a verified badge, a false availability/movement claim, or favourable trust treatment. Safety-critical and essential disruption information must not be displaced by ads.
+
+A moving vehicle can define route/area context for an advert, but it does not establish that passengers onboard are VibeMat users or that they saw the advert. Report only measured VibeMat audience exposure; never invent onboard reach.
+
+Exact recommendation formula, ad inventory, frequency caps, targeting permissions, creator eligibility, and measurement thresholds remain open for later design and validation.
