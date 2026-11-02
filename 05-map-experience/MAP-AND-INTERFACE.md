@@ -64,3 +64,18 @@ Settings may live inside Profile. This navigation is a design proposal and shoul
 - Map layer categories.
 - Offline map and cached-data behaviour.
 - How to represent low-confidence or stale activity.
+
+## Map-first morning experience
+
+The map remains the main canvas when Ken opens VibeMat at 5:00 AM. A compact morning summary may sit over the map, but it must not turn the screen into a dashboard or obscure the surrounding transport context.
+
+The map may show:
+- Nearby stages such as Eastmar, Allsops, and Drive-In.
+- Declared journeys and departure windows.
+- Transport activity with a clear status and source.
+- Reported disruptions or traffic conditions when supported.
+- Relevant route and corridor context.
+
+A stage marker should open a detail view that distinguishes stage identity, recent reports, verified presence, declared availability, and departures. A route line must not imply a live vehicle journey unless it is supported by live location data.
+
+The user should be able to dismiss or collapse the briefing and continue exploring the map. The interface should make stale or offline information visibly different from fresh information.
