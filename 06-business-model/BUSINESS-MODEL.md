@@ -340,3 +340,30 @@ The first test should be deliberately narrow:
 The experiment must measure genuine reach and downstream value separately. Impressions/views are attention, not passengers. Enquiries are intent, not bookings. Boarding or completed journeys count as outcomes only when a credible measurement method exists.
 
 This is the agreed starting hypothesis, not proof of willingness to pay. Pricing, campaign format, attribution rules, success thresholds, and the exact operator/route remain to be validated before launch.
+
+## Confirmed strategic direction: TikTok-style creator and advertising ecosystem
+
+VibeMat will use the **TikTok model as a full discovery and commercial ecosystem**, adapted to transport—not merely copy a short-video interface or place adverts beside moving vehicles.
+
+### Model components
+- **Creators/publishers:** kamagers/touts, drivers, conductors, stage contributors, route MCs, operators, and other authorised transport-information publishers.
+- **Content:** transport activity, departures, capacity updates, stage/road reports, route explainers, authorised live updates, and useful transport stories.
+- **Open recommendation:** a For You-style discovery feed that helps users discover useful transport information without searching or following the publisher.
+- **Following:** a personalised feed from followed people, operators, routes, corridors, stages, and activities.
+- **Audience and analytics:** aggregate reach, impressions/views, follows, saves, enquiries, and outcomes—kept in distinct measurement categories.
+- **Advertising:** clearly labelled sponsored discovery for transport operators and relevant businesses, with contextual route/area relevance where appropriate.
+- **Campaigns and creator earning:** operator- or business-funded campaigns and potential direct creator compensation, subject to measurable value and agreed terms.
+
+### Moving-vehicle and route-aware advertising
+A moving vehicle, published journey, route, or corridor may provide context for a relevant sponsored message in VibeMat's feed or map discovery. This does not mean the advertiser is automatically reaching passengers inside that vehicle. The audience is VibeMat users who are eligible to receive and actually see the sponsored content. Do not claim onboard exposure or passenger counts without a separate, consented and validated measurement method.
+
+### Commercial and trust rules
+- Every paid placement must be clearly labelled as sponsored.
+- Paid distribution cannot buy verification, factual status, or a favourable trust score.
+- Ads must not masquerade as vehicle updates or hide source/time/status information.
+- Essential safety and disruption information must not be suppressed by commercial placement.
+- Attention (views/reach/follows), Intent (saves/enquiries), Outcomes (verified boarding/completion), and Trust evidence remain separate.
+- Creator popularity or watch time alone must not determine compensation or factual credibility.
+- VibeMat does not collect fares, hold passenger funds, or operate creator wallets/payouts in the initial model. Any creator compensation is arranged and paid directly by the contracting operator/business unless a separately approved future model changes this boundary.
+
+The agreed first monetisation hypothesis remains operator/SACCO reach: one operator, one route/corridor, one measurable campaign. The broader TikTok-style ecosystem is the strategic direction; creator monetisation, ad formats, targeting, pricing, inventory, and rollout sequence still require validation.
