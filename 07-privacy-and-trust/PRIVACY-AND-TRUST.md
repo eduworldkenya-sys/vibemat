@@ -130,3 +130,38 @@ The stationary timer must use reliable GPS/device evidence and tolerate temporar
 **Agreed default threshold: 20 minutes.** After reliable stationary detection for 20 minutes, suspend public exact-GPS visibility and do not display the last precise position publicly. The owner/authorised operator can still access exact location in their authenticated account and may deliberately resume public sharing. This is a product rule, not an implemented GPS capability. Category-specific exceptions and temporary-session duration remain open.
 
 This protection is about public exposure of precise location. It does not require deleting the private location record immediately; retention and deletion periods require a separate policy.
+
+
+## Vehicle movement must not be inferred from passenger phones
+
+A moving phone is not evidence of a moving vehicle. A passenger inside a moving matatu has a moving phone, and the device-motion signal does not establish which vehicle the person is in or whether the vehicle itself is moving.
+
+A public vehicle movement claim requires a fresh source explicitly associated with and authorised for that vehicle, such as the vehicle's own device or a driver/operator device deliberately configured for that vehicle. The owner/operator's selected sharing mode controls whether approximate or exact live location is shared, or whether no GPS is shared.
+
+Passenger devices must not be silently used as vehicle trackers. If the source is a passenger observation, label it as a report and do not upgrade it to verified vehicle movement.
+
+## Stage waiting information: aggregate, anonymous, and bounded
+
+Stage waiting estimates can be useful, but tracking individual waiting passengers is not acceptable product behaviour.
+
+If an estimate such as “approximately 3 people waiting” is ever displayed:
+- It must be an aggregate estimate, not a roster or individual trace.
+- It must not expose identities, individual coordinates, device identifiers, arrival times, or individual waiting durations.
+- It must use a bounded observation window and a minimum group threshold.
+- Suppress small groups and weak or stale estimates.
+- Label the result as approximate and show its time window/freshness.
+- Do not equate phones with people; account for uncertainty, multiple devices, and people without phones.
+- A stationary phone near a stage does not establish that its owner is waiting for transport.
+
+The minimum group threshold, time window, estimation method, lawful/consent basis, retention, and deletion rules require privacy review before implementation. If safe aggregation cannot be demonstrated, do not show a count. This is a design constraint, not an implemented capability.
+
+## Social feedback and privacy
+
+Following, saving, viewing, confirming, disputing, and sharing have different meanings and should not be collapsed into a generic engagement score.
+
+- Saved/pinned items are private by default.
+- A passenger's followed routes, stages, and contributors must not reveal their home, work, or travel routines publicly by default.
+- Individual viewer identities and locations must not be exposed to publishers; provide only appropriately aggregated reach analytics.
+- Confirmations and disputes should be attached to the relevant information item, not published as a public list of identifiable passenger witnesses.
+- Do not equate follower count, views, shares, or reactions with source reliability or post truth.
+- Comments and direct messages are not assumed; any later introduction requires abuse, harassment, privacy, and moderation controls.
