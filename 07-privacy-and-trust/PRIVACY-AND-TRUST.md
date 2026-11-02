@@ -112,3 +112,21 @@ VibeMat should not pretend that a passenger needs an app to see a vehicle that i
 - Seeing useful patterns and changes over time without exposing unnecessary personal or operational detail.
 
 A nearby vehicle sighting can be one useful data point, but the product should provide context and network-wide discovery rather than merely duplicating what Ken can see with his eyes.
+
+## Proposed automatic stationary privacy protection
+
+A vehicle's GPS being enabled must not mean that its precise position remains publicly visible indefinitely.
+
+**Proposed behaviour:**
+- When an authorised GPS source detects that a vehicle has remained stationary for a configured period, VibeMat changes its public tracking state to **Parked / Stationary**.
+- Public exact-location sharing is automatically suspended.
+- The last precise GPS position is not left visible on the public map or exposed as the vehicle's current location.
+- The owner or authorised operator can still access the vehicle's exact location in their authenticated account, subject to account permissions.
+- The owner/operator may deliberately bring the vehicle's GPS presence online again, including for a short, time-limited sharing session.
+- The interface must distinguish parked/stationary, GPS unavailable, tracking paused, and moving. These states must not be conflated.
+
+The stationary timer must use reliable GPS/device evidence and tolerate temporary signal loss or GPS jitter. A lack of updates alone must not be described as proof that a vehicle is parked. If the system cannot determine the state confidently, show an honest unknown/stale state and protect the last precise location from public display.
+
+**Threshold is not yet decided:** 10, 20, or 30 minutes have been raised for consideration. The final default, any vehicle/operator-specific configuration, and the rules for resuming public sharing remain open.
+
+This protection is about public exposure of precise location. It does not require deleting the private location record immediately; retention and deletion periods require a separate policy.
