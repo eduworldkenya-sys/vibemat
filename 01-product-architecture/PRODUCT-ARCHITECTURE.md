@@ -120,3 +120,25 @@ Users may follow transport sources and objects such as operators, contributors, 
 Every item should identify its publisher/source, publication or observation time, information type (for example declaration, report, or verified update), current status, and evidence/freshness where relevant. Community feedback can help assess an individual post, but popularity must never be treated as proof of accuracy.
 
 **Recommended interaction model:** follow, save/pin, share, and structured feedback (confirm, dispute, report incorrect/outdated/unsafe). Views may be measured as aggregate reach/analytics, not treated as trust. Avoid generic like-count competition as a primary transport signal. Free-form comments and direct messaging are not assumed; they require separate abuse, privacy, and moderation decisions.
+
+## Confirmed product direction: TikTok-style social discovery and creator ecosystem
+
+VibeMat will use the **TikTok model as a product and commercial model**, adapted to transport. This is broader than adding a scrolling feed or placing adverts beside moving vehicles. It combines creator/contributor publishing, open recommendation and discovery, following, audience growth, aggregate analytics, business advertising, sponsored distribution, campaigns, and potential creator monetisation.
+
+### Transport-native translation
+- Transport activity, updates, explainers, stage reports, route stories, and authorised live updates are the content.
+- Kamagers/touts, drivers, conductors, operators, route MCs, and other eligible contributors are publishers/creators, subject to role authority and safety controls.
+- The For You-style experience becomes an open transport discovery feed.
+- The Following experience surfaces eligible updates from followed contributors, operators, routes, corridors, stages, and activities.
+- Views/impressions and follows measure **Attention**; saves and enquiries measure **Intent**; verified boarding, delivery, or service completion measure **Outcome**.
+- Creator/business analytics, sponsored discovery, operator campaigns, and future creator earning opportunities form the commercial ecosystem.
+
+The map and feeds are different discovery surfaces over the same underlying transport activity and evidence records. They must not become disconnected content systems.
+
+### Recommendation and trust boundary
+Distribution may learn from relevance, explicit interests, follows, freshness, and useful content diversity, but engagement/popularity is not evidence of factual truth. Evidence eligibility, source, timestamp, permissions, freshness, and safety checks happen before distribution. Paid promotion must be visibly labelled and must never buy verification, factual status, or suppression of essential safety information.
+
+A moving vehicle may provide transport context for a route- or area-relevant campaign. It does **not** mean VibeMat can reach or measure every passenger inside that vehicle. Ads reach VibeMat users to whom the content is distributed; onboard passenger reach must not be claimed without a separate, consented and validated mechanism.
+
+### Product boundary
+Use the mechanics and staged commercial ecosystem of TikTok, not entertainment-first incentives. Transport usefulness, accuracy, privacy, and user control remain foundational. Do not copy addictive engagement mechanics, reward sensationalism, or let ads obscure transport activity.
