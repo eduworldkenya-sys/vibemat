@@ -1,155 +1,110 @@
 # Open Decisions and Product Backlog
 
-This document prevents proposals from silently becoming product requirements.
+This document is the product decision register. It distinguishes user-confirmed decisions from recommended defaults and unresolved decisions. A recommendation must not silently become a confirmed user decision.
 
-## Agreed decisions
+## Confirmed product decisions
 
 - VibeMat is a transport discovery and intelligence network.
-- The product is map-first: the living map is the main app canvas.
-- The product architecture has three connected foundations: map, intelligence layer, and underlying data engine.
+- The architecture is hybrid: a living interactive map, a transport intelligence/discovery layer, and an underlying data engine.
+- The map is the main app canvas.
 - The first designed customer is Ken as a passenger.
 - The transport ecosystem is one connected network, not separate apps for each participant.
 - Dynamic transport activities and journeys are central to the product.
 - Visibility, availability, commercial intent, planned journey, live movement, and historical activity are distinct concepts.
-- A full or unavailable vehicle may still contribute to discovery and transport intelligence.
+- A full or unavailable vehicle may still be discoverable as activity.
 - Personalisation must not prevent exploration elsewhere.
 - VibeMat will not handle passenger fares or transport money.
 - Current work is product documentation only; no coding or deployment until the blueprint is sufficiently defined.
+- Ken's dashboard is fundamentally a living transport map, not a conventional dashboard.
+- The map should show all activity eligible for discovery across the visible map, while highlighting relevant opportunities.
+- Open network discovery and personalised relevant-opportunity discovery must coexist.
+- Operators control GPS sharing mode: approximate location, exact live GPS, or no GPS sharing. Exact live location is not public by default.
+- Public discoverability does not grant permission for continuous precise tracking or permanent movement-history exposure.
+- Proposed automatic stationary privacy threshold: **20 minutes**. After reliable stationary detection for 20 minutes, public exact GPS visibility is suspended and the last precise location is not displayed publicly. The owner/authorised operator can still access exact location in their authenticated account and may deliberately resume public sharing. A missing GPS update alone is not proof of parking.
+- Ken's time-based dashboard should adapt to time, actual context, and available evidence, not assume a fixed commuter schedule.
 
-## Proposed, not yet approved
+## Ken's full-day experience — agreed direction
 
-- Bottom navigation: Map · Discover · Insights · Profile.
-- A discovery-card pattern floating over the map.
-- Specific categories of map layers and transport markers.
-- A wider operator and provider workflow after the passenger experience is defined.
-- Optional business services or monetisation that do not involve fare custody.
+The map remains primary throughout the day. Time changes the emphasis, not the identity of the product.
 
-## Open decisions
+| Time | Main emphasis | Passenger question |
+|---|---|---|
+| 5 AM | Morning preparation | How should I start my journey? |
+| 8 AM | Active movement | What is happening along my journey and across the network? |
+| 10 AM | Wider network discovery | What is happening across the transport network? |
+| 2 PM | New activity and opportunities | What new transport activity or useful opportunity has appeared? |
+| 4 PM | Return/next-trip preparation | What are my options for my next destination? |
+| 6 PM | Evening movement | What has changed, and what should I consider now? |
+| 9 PM | Tomorrow preparation and exploration | What should I know before tomorrow? |
+
+This is a contextual emphasis, not a rigid schedule. If Ken works nights, travels midday, changes destination, or does not plan to travel tomorrow, the experience must adapt.
+
+## Recommended defaults for the passenger experience
+
+These are product recommendations based on the user's established preferences for simple, mobile-first, trust-first, explainable experiences. They are defaults for the blueprint, not claims of user approval.
+
+- Show the map immediately; do not require a search before exploration.
+- Use a compact, dismissible briefing rather than a large card dashboard.
+- Keep open discovery available while highlighting relevant opportunities.
+- Use time, permitted location/context, saved routes, and explicit interests together; do not infer certainty from routine.
+- Allow inspection, saving/following, refinement, reporting, and publisher-enabled contact.
+- Do not introduce booking, dispatch, fare custody, or payment handling into the passenger experience.
+- Use opt-in, actionable, explainable notifications with quiet periods and frequency controls; avoid stale, duplicate, or low-confidence alerts.
+- Preserve cached map/activity when possible, show last update, and never label cached data as live.
+- Use high contrast, readable typography, clear hierarchy, generous spacing, accessible touch targets, consistent visuals, and fast low-data mobile behaviour.
+- Recommended bottom navigation: Map · Discover · Insights · Profile. Final confirmation remains open.
+
+## Still open — only notify the user when a real decision is needed
 
 ### Passenger experience
-- What is the first useful action Ken can take after opening the app?
-- Which information must be visible immediately at 5:00 AM?
-- How should Ken compare nearby stages and route options without creating a booking system?
+- Whether the user wants to change any of the recommended passenger actions or notification defaults.
+- Whether the proposed bottom navigation is accepted.
 
-### Data and live status
-- Which sources can provide stage activity?
-- How can a vehicle's presence at a stage be confirmed?
-- What qualifies as a live location?
-- How should stale or contradictory data be handled?
-- Which information can work offline, and how is freshness shown?
+### Map and data
+- Map provider and licensing.
+- Exact marker/legend design and map layers.
+- Data providers for stages, operator activity, traffic, road conditions, and weather.
+- Per-data-type freshness and expiry thresholds.
+- Verification methods and minimum evidence for stage presence, movement, and availability.
+- Handling of contradictory reports, duplicates, and appeals.
 
-### Activities
-- Which activity types are supported in the first release?
-- What fields are mandatory for each type?
-- How are recurring and flexible journeys represented?
-- How are edits, cancellations, and withdrawals handled?
+### Transport activities and participants
+- Participant onboarding and identity verification.
+- Which activity types and fields are mandatory for each transport category.
+- Who may publish on behalf of a vehicle, operator, SACCO, or stage.
+- Rules for recurring journeys, corrections, cancellations, and withdrawals.
+- Public, restricted, invited, and private visibility policies by activity type.
+- Detailed GPS permission, temporary sharing-session, retention, and access-audit rules.
 
 ### Intelligence
-- What is the first route-overlap use case?
-- What evidence is required for a match?
-- How are confidence and uncertainty communicated?
-- What is the first useful personal trend?
+- First route-overlap/matching use case and evidence threshold.
+- Confidence and uncertainty presentation.
+- Personal trend definitions and minimum data thresholds.
+- Ranking weights and evaluation criteria. No numeric weights are approved.
 
-### Trust and safety
-- What verification levels exist?
-- What is public, private, or shared by invitation?
-- What are the reporting and moderation workflows?
-- What location precision is safe for each activity type?
+### Trust, safety, and compliance
+- Reporting, moderation, impersonation prevention, and dispute workflows.
+- Sensitive cargo/vehicle and safety-related exclusions.
+- Data retention/deletion policy and authorised access rules.
+- Applicable legal and regulatory review before launch.
 
 ### Business model
-- What is free?
-- What could be paid for without compromising discovery quality?
-- How will promoted activity be labelled?
-- What services, if any, will be offered to operators?
+- What is free and what may be paid for.
+- Rules for promoted activity and clear labelling.
+- Operator services that do not compromise discovery or involve passenger fare custody.
 
 ### Identity and access
-- The user has indicated that OTP should not be a requirement and that email-based/custom authentication may be considered.
-- Exact sign-in method is **open**. No authentication implementation has been selected.
+- User has indicated OTP should not be a requirement and email/custom authentication may be considered.
+- Exact sign-in method remains open. No authentication implementation has been selected.
 
 ## Product documentation workflow
 
-For each new idea, record:
-1. The problem or opportunity.
-2. The user or participant affected.
-3. The proposed behaviour.
-4. Data and trust requirements.
-5. Dependencies.
-6. Conflicts with existing decisions.
-7. Status: agreed, proposed, open, or rejected.
+For every new idea:
+1. Identify the problem or opportunity.
+2. Identify affected users/participants.
+3. Define proposed behaviour.
+4. Define data, trust, privacy, and safety requirements.
+5. Identify dependencies and conflicts.
+6. Mark it as confirmed, recommended default, open, or rejected.
 
-## Current next product task
-
-Continue refining Ken's passenger experience: identify the specific decisions and useful information VibeMat provides that Ken cannot get simply by walking to Eastmar, Allsops, or Drive-In stage. Do this before defining provider workflows or implementation.
-
-## New product focus: Ken's 5:00 AM decision
-
-**Agreed product requirement:** the product must offer meaningful decision-support before Ken reaches a stage. Merely displaying nearby stage names is insufficient because he already knows those stages.
-
-**Proposed first use case:** a map-first morning briefing that compares available, trustworthy activity around Eastmar, Allsops, and Drive-In and provides relevant journey, road, traffic, and weather context when reliable sources exist.
-
-### Decisions still open
-- Which single passenger decision should the first release optimise: when to leave, which stage to walk to, which route to take, or which declared journey to inspect?
-- What is the minimum reliable data needed to compare stage activity?
-- Which stage/operator sources can publish updates, and how will their identity be verified?
-- How fresh must a stage report be before it is shown as current?
-- Should Ken choose a destination/time each morning, or can the app suggest a briefing from his own saved patterns?
-- Which road/traffic and weather sources are acceptable?
-- What should the app show when no reliable live data is available?
-- Which functions should remain useful offline, and how should cached data be labelled?
-
-### Validation requirement
-The 5:00 AM experience is a product hypothesis until tested with real passengers. Measure whether it helps users make a better decision than their current process; do not assume daily retention or time savings.
-
-### Next task
-Specify the exact information hierarchy and interactions for Ken's morning map, then define the evidence/source requirements for every displayed status. Do not begin coding until these are agreed.
-
-
-## New product focus: Ken's 5:00 AM decision
-
-**Agreed product requirement:** the product must offer meaningful decision-support before Ken reaches a stage. Merely displaying nearby stage names is insufficient because he already knows those stages.
-
-**Proposed first use case:** a map-first morning briefing that compares available, trustworthy activity around Eastmar, Allsops, and Drive-In and provides relevant journey, road, traffic, and weather context when reliable sources exist.
-
-### Decisions still open
-- Which single passenger decision should the first release optimise: when to leave, which stage to walk to, which route to take, or which declared journey to inspect?
-- What is the minimum reliable data needed to compare stage activity?
-- Which stage/operator sources can publish updates, and how will their identity be verified?
-- How fresh must a stage report be before it is shown as current?
-- Should Ken choose a destination/time each morning, or can the app suggest a briefing from his own saved patterns?
-- Which road/traffic and weather sources are acceptable?
-- What should the app show when no reliable live data is available?
-- Which functions should remain useful offline, and how should cached data be labelled?
-
-### Validation requirement
-The 5:00 AM experience is a product hypothesis until tested with real passengers. Measure whether it helps users make a better decision than their current process; do not assume daily retention or time savings.
-
-### Next task
-Specify the exact information hierarchy and interactions for Ken's morning map, then define the evidence/source requirements for every displayed status. Do not begin coding until these are agreed.
-
-
-## Morning map hierarchy — proposed specification
-
-The proposed first screen is map-first with a compact dismissible briefing. The information order is: relevant declared journeys/departure windows; explicit availability/capacity; recent nearby stage activity; sourced road/traffic context; sourced weather; and meaningful changes since last check.
-
-Tapping a stage opens its identity/location, activity time window, individual reports, declared departures, availability declarations, road context, and source/time/freshness. Tapping a journey opens its publisher, origin/destination, route, planned time, vehicle type, declared capacity, status, source, update time, and expiry.
-
-Map overlays remain short. Detailed reports, comparisons, publisher information, and history belong in expanded details or Discover/Insights. No-data states must be honest; offline/cached data must show its last update and must not be called live.
-
-### Decisions still open
-
-- Which map provider and marker visual system will be used?
-- What is the exact freshness/expiry threshold for each report type?
-- What minimum evidence makes a stage report eligible for an activity summary?
-- How should conflicting reports and confidence be represented?
-- What is the first-release source for traffic, road conditions, and weather?
-- Should Ken's morning briefing use saved commute patterns, an optional destination/time, or both?
-- Which actions are available from a journey detail, and what contact/privacy protections apply?
-
-### Constraints
-
-- A planned departure is not a guaranteed departure.
-- A report is not a verified presence.
-- A visible vehicle is not necessarily available.
-- A route line is not proof of live movement.
-- Historical and cached information must never be presented as current.
-- Do not fabricate data or imply that VibeMat dispatches transport.
+Do not code or deploy until the product blueprint and first-release scope are sufficiently defined. Product hypotheses must be tested with real passengers; do not claim retention, time savings, accuracy, or readiness without evidence.
