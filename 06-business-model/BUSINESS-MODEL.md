@@ -34,3 +34,9 @@ Avoiding fare custody does not automatically remove all legal, consumer-protecti
 - What is the business model that does not depend on taking a cut of passenger fares?
 
 No pricing or monetisation model is approved yet.
+
+## Morning decision-support and commercial neutrality
+
+The passenger's morning briefing is a core product-value experience, not automatically an advertising slot. Any future paid promotion must be clearly labelled and must not secretly influence factual traffic, stage-status, or availability information.
+
+VibeMat must not sell a false claim of availability or allow a paid operator to appear verified merely because they paid. Commercial ranking rules remain open and must preserve trust.
