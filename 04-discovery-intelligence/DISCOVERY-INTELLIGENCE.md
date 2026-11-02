@@ -180,3 +180,52 @@ The balance can adapt to context and available evidence. Relevant opportunities 
 This dual-mode principle can also apply at other times of day. The emphasis changes with Ken's context, but both capabilities remain part of the same transport network.
 
 **Status:** Both open network discovery and proactive relevant-opportunity discovery are agreed product requirements. Exact screen layout, ranking weights, and distribution thresholds remain open.
+
+
+## Social discovery: following sources without closing the network
+
+VibeMat's social layer is a transport-information network, not an entertainment feed. The content consists of transport declarations, reports, verified updates, corrections, and useful observations.
+
+The same activity records should power:
+- **Map discovery:** where activity is happening and what is happening nearby or elsewhere.
+- **Following feed:** new and updated information from sources, routes, stages, corridors, and activities the user follows.
+- **Open discovery:** eligible information from the wider network, including sources the user does not follow.
+
+Following personalises distribution; it must not hide the rest of the transport network. Feed ranking must still apply evidence eligibility, freshness, privacy, and safety checks before relevance or engagement signals.
+
+### Recommended account interactions
+
+| Interaction | Product purpose | Trust/ranking treatment |
+|---|---|---|
+| Follow | Subscribe to a source, operator, route, corridor, stage, or activity | Strong preference signal, not proof of quality |
+| Save / pin | Privately keep an item, route, stage, or insight for later | Private intent signal; not public popularity |
+| View | Understand aggregate reach and whether an item was seen | Analytics only; not proof or a ranking shortcut |
+| Confirm | Independently report that an item appears accurate/current | Evidence input, weighted by independence and source quality |
+| Dispute / mark outdated | Signal a possible contradiction or stale item | Triggers review/requalification; not automatic proof it is false |
+| Report | Flag abuse, fraud, danger, or policy violations | Safety/moderation workflow |
+| Share | Distribute an item while retaining its original source, timestamp, and status | Reach signal only; never upgrades credibility |
+
+Do not copy TikTok's engagement mechanics wholesale. Generic likes, follower counts, view counts, and popularity contests should not become the trust model. If a lightweight positive reaction is later introduced, it must be clearly separated from factual confirmation.
+
+### Source reliability and post credibility
+
+Keep three concepts separate:
+1. **Source reliability:** the historical quality and accuracy of a contributor's information across eligible posts.
+2. **Post credibility:** the evidence supporting this specific declaration or report.
+3. **Community feedback:** independent confirmations, disputes, corrections, and reports about the specific item.
+
+A source with many followers or views is not automatically reliable. A popular post is not automatically true. One disputed post should not automatically destroy a source's reputation. Feedback should be checked for independence, coordinated abuse, recency, and corroboration before changing trust assessments.
+
+## Vehicle movement evidence boundary
+
+A moving passenger phone is not a vehicle movement source. A matatu passenger's phone can move exactly as the vehicle moves, but it does not prove that the matatu itself is moving or identify which vehicle it is in.
+
+Only an explicitly authorised vehicle-associated device/source may support a live vehicle movement claim. The source must be linked to that vehicle and enabled under the owner's/operator's sharing choice. Passenger phones must not be silently repurposed as vehicle trackers.
+
+## Stage waiting estimates and aggregation
+
+A stage waiting estimate is a different intelligence signal from vehicle presence or movement. It may be shown only as an approximate, anonymous aggregate when a privacy-reviewed minimum group threshold and bounded time window are satisfied.
+
+Never expose or infer individual identity, coordinates, device IDs, arrival time, or waiting duration. Do not equate stationary phones with waiting passengers or raw device count with people count. Suppress the estimate when the group is too small, evidence is weak, or the estimate is stale. Label any displayed count as approximate and show its time window/freshness.
+
+The minimum threshold, time window, estimation method, and retention policy remain open pending privacy review. This capability is a design candidate, not an implemented feature.
