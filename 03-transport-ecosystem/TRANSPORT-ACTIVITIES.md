@@ -210,3 +210,17 @@ Each post/activity must retain its source, publisher authority where relevant, t
 The same underlying activity may appear on the map, in open discovery, and in a Following feed. Following personalises the feed but does not close off wider discovery.
 
 A moving vehicle or its route can be useful context for a sponsored campaign, but VibeMat must not assume that passengers inside the vehicle are VibeMat viewers. Any claim about onboard audience or exposure requires a separate consented, reliable measurement method.
+
+## Confirmed wider ecosystem: people and businesses in a world in motion
+
+Transport is VibeMat's initial entry point, but the media opportunity extends to the wider movement economy. Everyone moves: commuters, workers, students, families, travellers, traders, drivers, passengers, and people moving goods. Their movement creates audiences, information needs, and contexts in which businesses may reach relevant people.
+
+The ecosystem therefore includes both movement participants and businesses serving them. Examples include fuel stations, spare-parts retailers, garages, tyre shops, insurers, restaurants, hotels, shops, destinations, logistics providers, and other relevant brands. These businesses may publish useful content or advertise to VibeMat audiences without VibeMat owning or operating their businesses.
+
+Participants may act as publishers, contributors, audiences, advertisers, or several roles over time. Transport activity, journey updates, route explainers, stage information, destination stories, service information, and relevant local discovery can all contribute to the network's content—subject to source, permission, accuracy, safety, and moderation rules.
+
+VibeMat is not required to own vehicles, stages, roads, fuel infrastructure, garages, shops, fleets, or logistics assets. It is not a transport operator, booking platform, dispatch service, or booking website. Where a discovery leads to a provider, the provider remains responsible for its service and any direct transaction unless a separately approved future product changes that boundary.
+
+## Mainstage pilot remains the first participation test
+
+The first pilot remains online kamagera/touting at one physical Mainstage. It tests whether kamagers can publish and distribute useful stage/vehicle/departure information online and whether passengers discover and connect with the right transport opportunities. It does not test or launch a general booking marketplace, all transport categories, or a full advertising/creator monetisation programme.
