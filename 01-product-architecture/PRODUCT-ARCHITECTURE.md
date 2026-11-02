@@ -52,8 +52,20 @@ This is the foundation that makes the map and intelligence meaningful. It stores
 2. The data engine stores the activity with its source, time, status, and permissions.
 3. The map presents the activity in its appropriate spatial and temporal context.
 4. The intelligence layer evaluates relevance, overlap, patterns, and possible connections.
-5. The user discovers an item and can inspect its details.
-6. The activity can be updated, completed, withdrawn, or retained as appropriately labelled history.
+5. The discovery function selects and distributes useful findings to people or makes them explorable on the map.
+6. The user inspects the evidence and decides what to do.
+7. The activity can be updated, completed, withdrawn, or retained as appropriately labelled history.
+
+## The four distinct responsibilities
+
+These concepts are connected, but they are not interchangeable:
+
+- **Data:** records what has been declared, reported, observed, verified, or stored historically. Data answers: “What information do we have?”
+- **Intelligence:** interprets data to identify meaning, patterns, relationships, confidence, relevance, and possible implications. Intelligence answers: “What does this information suggest?”
+- **Discovery:** decides which activities or insights to surface to which users, in what order and context. Discovery answers: “What should this person be shown now?”
+- **Map:** gives people the spatial interface to see, navigate, inspect, and explore the transport network. The map answers: “Where is this happening, and what can I explore?”
+
+The intelligence layer is broader than a ranking formula. Ranking is one tool within discovery. Intelligence also includes route-overlap detection, pattern recognition, stage/corridor analysis, trend analysis, and evidence interpretation.
 
 ## Core domain distinction
 
@@ -71,6 +83,8 @@ The core unit should be **transport activity**, not only a static vehicle or rou
 ## Status
 
 **Agreed:** three-part architecture—living map, transport intelligence, and underlying data engine.
+
+**Clarified product model:** data engine supplies evidence; intelligence interprets it; discovery distributes relevant findings; the map is the spatial interface.
 
 **Open:** exact technical architecture, data providers, map provider, tracking mechanisms, and launch infrastructure. These are deliberately not being selected during the product-notes stage.
 
