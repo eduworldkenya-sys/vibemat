@@ -4,13 +4,41 @@
 
 Transport discovery must not require exposing more personal or operational information than is necessary.
 
+VibeMat should make useful transport activity discoverable without turning every participant, vehicle, or journey into a permanently trackable public target.
+
+## Public visibility versus precise tracking
+
+A vehicle travelling on a public road can ordinarily be seen by people nearby. VibeMat may make relevant, deliberately published or credibly observed public transport activity discoverable. This does not mean every vehicle must broadcast its exact GPS coordinates or expose a continuous movement trail.
+
+Keep these concepts separate:
+- **Publicly observable activity:** a vehicle or transport activity that can be seen in a public place or has been deliberately published for discovery.
+- **Approximate location:** a general area or map position that does not expose precise coordinates.
+- **Exact GPS position:** precise coordinates supplied by a device or authorised source.
+- **Continuous tracking/history:** a sequence of positions over time, which can reveal routines, routes, stops, and sensitive patterns.
+
+Public visibility at one moment is not blanket permission for continuous tracking or permanent publication of a movement history.
+
+## GPS and operator control
+
+GPS may be used as a source for vehicle location when the relevant operator or authorised participant has enabled and consented to that sharing mode.
+
+The proposed operator-controlled modes are:
+- Approximate location.
+- Exact live GPS location.
+- No GPS location sharing.
+
+Exact live location must not be public by default. The operator must be able to understand and control when precise tracking is active, who can see it, and when sharing stops. Any authorised operational or safety access must be governed by a separately defined policy and lawful authority; it must not be assumed from public map visibility.
+
+A vehicle can still be discoverable through a published journey, public route/stage information, or a credible observation even when it is not sharing GPS. The interface must identify the source and must not imply GPS verification where none exists.
+
 ## Location privacy
 
 - Do not expose a person's home address by default.
-- Do not expose a driver's or vehicle's exact live location unless the participant has knowingly enabled an appropriate sharing mode.
+- Do not expose a driver's or vehicle's exact live location unless the participant has knowingly enabled an appropriate sharing mode or a separately established lawful/authorised basis applies.
 - Use an appropriate level of geographic precision for public discovery.
 - Distinguish a public stage or route from a private origin or destination.
 - Provide controls for activity visibility and history visibility.
+- Treat movement histories and repeated location patterns as sensitive, even when individual sightings occurred in public.
 
 ## Source and freshness
 
@@ -30,7 +58,7 @@ The product should be able to distinguish:
 - Community report.
 - Partner-supplied information.
 - Independently verified information.
-- Live position from an identified source.
+- Live GPS position from an identified and authorised source.
 - Aggregated historical pattern.
 
 The exact trust model remains open. These labels are conceptual categories, not a finished verification policy.
@@ -41,7 +69,8 @@ Participants should be able to understand and control:
 - What activity they publish.
 - Who can discover it.
 - Whether route history is publicly visible.
-- Whether exact location is shared.
+- Whether exact GPS location is shared.
+- When GPS sharing is active and when it stops.
 - Whether an activity is still active, completed, or withdrawn.
 
 ## Safety and abuse questions
@@ -55,6 +84,7 @@ Before launch, the product needs policies and workflows for:
 - Reporting, moderation, and dispute handling.
 - Data retention and deletion.
 - Access to sensitive location and activity history.
+- Misuse of GPS access or tracking credentials.
 
 These are required design topics; no completed policy is claimed here.
 
@@ -66,7 +96,19 @@ The product should distinguish:
 - Private user location used for personal relevance.
 - Public mapped stage locations.
 - Approximate activity areas.
-- Exact vehicle location shared by an operator under an explicit setting.
+- Exact vehicle GPS location shared by an operator under an explicit setting.
 - Verified live positions supplied by an authorised source.
 
 Cached/offline information must show when it was last updated. A stale report must not be presented as current stage readiness, traffic, weather, or vehicle availability.
+
+## Why VibeMat adds value beyond looking at the road
+
+VibeMat should not pretend that a passenger needs an app to see a vehicle that is already plainly visible on the road. Its value is in connecting information that is difficult to gather by standing at one roadside location:
+- Discovering published journeys before reaching a stage.
+- Seeing activity across multiple stages, routes, and locations.
+- Finding relevant journeys and possible route overlaps.
+- Understanding declared availability and planned departures, with evidence and freshness.
+- Exploring transport activity beyond what is immediately within sight.
+- Seeing useful patterns and changes over time without exposing unnecessary personal or operational detail.
+
+A nearby vehicle sighting can be one useful data point, but the product should provide context and network-wide discovery rather than merely duplicating what Ken can see with his eyes.
