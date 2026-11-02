@@ -254,3 +254,30 @@ A moving vehicle or route can provide context for a relevant advert, but it does
 - How to measure actual enquiries and outcomes without overstating views as passengers or enquiries as completed trips.
 
 The first physical-stage pilot remains focused on online kamagera/touting. Do not expand that pilot into a full creator monetisation or advertising rollout before the core stage workflow is proven.
+
+## Confirmed strategic direction: the media network for a world in motion
+
+- Central positioning: **VibeMat is the media network for a world in motion.**
+- Core insight: **Everyone moves.** People commute, work, study, trade, travel, deliver goods, visit places, and explore. Movement creates audiences, changing needs, discovery opportunities, and commercial contexts.
+- VibeMat's intended business is media, discovery, audience distribution, and advertising—not ownership or operation of transport assets.
+- VibeMat is not a transport operator, booking platform, or booking website, and does not need to compete with existing booking platforms.
+- VibeMat does not need to own vehicles, fleets, roads, petrol stations, garages, spare-parts shops, shipping assets, or other physical businesses/infrastructure.
+- The potential audience includes commuters, workers, students, travellers, families, traders, drivers, passengers, visitors, and people moving goods.
+- The potential advertiser universe includes transport operators and businesses serving people in motion: fuel stations, spare-parts retailers, garages, tyre shops, insurers, restaurants, hotels, retailers, destinations, logistics firms, and relevant brands.
+- TikTok, Facebook, YouTube, Instagram, and similar platforms are potential external marketing/acquisition channels to popularise VibeMat. They are not the competitors VibeMat must defeat and are not substitutes for VibeMat's own audience/network.
+- VibeMat's own map, discovery feed, following relationships, publishers, and audience/campaign analytics form its independent media network.
+- The map and transport data/intelligence remain useful product foundations, but they do not define VibeMat as a booking or transport-operating business.
+- The first physical pilot remains online kamagera/touting at one Mainstage. It is a narrow participation/discovery test, not a broad booking launch or full advertising rollout.
+
+## Open questions for validating the media business
+
+- Which audience segment should be acquired first beyond the Mainstage pilot, and what recurring value brings them back?
+- Which advertiser category has the strongest early need and willingness to pay for relevant reach?
+- What is the first measurable media product: sponsored discovery, business profile promotion, campaign distribution, or another format?
+- What campaign metrics can VibeMat reliably measure without claiming that vehicle passengers saw an advert?
+- Which targeting/context signals are acceptable, useful, permissioned, and privacy-safe?
+- How should VibeMat distinguish organic publisher content, business content, and paid placements in every surface?
+- Which external channels will be used for acquisition, and how will VibeMat avoid dependence on any one platform?
+- What is the path from the Mainstage kamagera pilot to a broader movement media audience without prematurely expanding scope?
+
+These questions do not reopen the confirmed thesis. They are validation and execution decisions.
