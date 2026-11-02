@@ -100,3 +100,23 @@ The architecture should support a passenger decision cycle:
 6. **Decide:** let Ken inspect options and decide whether/when to leave or which stage/route to consider. VibeMat does not guarantee a seat or make the decision for him.
 
 The system must degrade honestly: if live stage data is unavailable, show that it is unavailable rather than inventing stage readiness. If offline, show cached information with its last-updated time and disable claims that require a live connection.
+
+
+## Vehicle movement and passenger-presence evidence boundary
+
+- A moving phone is not evidence of a moving vehicle. A passenger's phone inside a moving matatu can produce the same phone-motion signal as a driver's phone.
+- Vehicle movement may be claimed only from a source explicitly associated with and authorised for that vehicle, such as its own device or an authorised driver/operator device configured for that vehicle.
+- The vehicle owner/operator chooses the public GPS mode: approximate location, exact live GPS, or no GPS sharing. A passenger's personal device must never silently become a vehicle tracker.
+- Stage waiting information is a privacy-protected aggregate estimate, not person-level tracking. It may be shown only when a configured minimum group threshold and aggregation/time-window rules are satisfied.
+- Never expose identities, individual coordinates, individual waiting duration, or a person's movement history through stage-waiting estimates.
+- If evidence is insufficient, show that the information is unavailable or unknown; do not infer vehicle movement or passenger waiting from raw phone movement.
+
+## Social transport information network
+
+VibeMat also supports a social discovery model built around useful transport information. The social layer is not a separate chat or entertainment product: transport declarations, reports, corrections, confirmations, and updates are the content.
+
+Users may follow transport sources and objects such as operators, contributors, routes/corridors, stages, and (where useful) specific activities. A personalised feed can surface new information from followed sources while the map continues to expose eligible activity across the wider network. Both views use the same underlying activity and evidence records.
+
+Every item should identify its publisher/source, publication or observation time, information type (for example declaration, report, or verified update), current status, and evidence/freshness where relevant. Community feedback can help assess an individual post, but popularity must never be treated as proof of accuracy.
+
+**Recommended interaction model:** follow, save/pin, share, and structured feedback (confirm, dispute, report incorrect/outdated/unsafe). Views may be measured as aggregate reach/analytics, not treated as trust. Avoid generic like-count competition as a primary transport signal. Free-form comments and direct messaging are not assumed; they require separate abuse, privacy, and moderation decisions.
