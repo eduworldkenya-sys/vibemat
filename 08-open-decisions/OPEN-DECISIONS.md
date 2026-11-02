@@ -264,3 +264,65 @@ These decisions require product, technical, safety, and legal review before impl
 - Before significant brand investment or international launch, complete documented searches of Kenya's company and trademark registers, WIPO's Global Brand Database, relevant national trademark registers in target markets, and relevant goods/services classes covering software, transport, logistics, marketplace and related services.
 - Check domains and social handles separately; domain availability does not establish trademark rights.
 - Until clearance is complete, describe the mark as a working brand direction. Do not claim it is globally unique, registered, or legally available.
+
+## Confirmed strategic direction: full TikTok-style model adapted to transport
+
+VibeMat will use the TikTok model as a **full social discovery and commercial ecosystem**, adapted to transport. This confirms more than a feed interface: creators/publishers, open recommendations, Following, audience growth, aggregate analytics, sponsored distribution, business campaigns, and potential creator earning opportunities are part of the product direction.
+
+Transport-native translation:
+- Transport activities, updates, route explainers, stage reports, and authorised live updates are the content.
+- Kamagers/touts, drivers, conductors, stage contributors, operators, and route MCs can be publishers/creators within role authority and safety controls.
+- A For You-style feed provides open discovery; a Following feed personalises updates from selected sources and transport objects.
+- The map and feeds use the same underlying activity and evidence records.
+- Businesses/operators may sponsor clearly labelled content; future creator earning may arise from operator/business-funded campaigns.
+- Attention, Intent, Outcome, and Trust evidence remain separate. Popularity is not truth.
+
+A moving vehicle or route can provide context for a relevant advert, but it does not prove that passengers onboard are VibeMat users or saw the advert. VibeMat must report measured audience exposure honestly and must not invent onboard reach.
+
+### Confirmed guardrails
+- Paid placements are clearly labelled and separated from factual verification and organic trust.
+- Payment cannot buy verification, false availability, false movement, or favourable factual status.
+- Essential safety/disruption information is not displaced by ads.
+- No addictive engagement mechanics or incentives for sensationalism/misinformation.
+- No fare custody or creator payout wallet in the initial model; direct campaign compensation, if any, is between the operator/business and creator.
+
+### Still open for detailed design and validation
+- Exact For You/Following/map screen relationship and navigation.
+- Creator eligibility, identity/authority checks, and publishing permissions.
+- Media formats and moderation/safety rules.
+- Recommendation signals, ranking evaluation, and frequency controls.
+- Sponsored formats, targeting permissions, ad inventory, pricing, disclosure, and measurement.
+- Creator campaign contracts, attribution, compensation rules, and whether VibeMat charges a campaign service fee.
+- How to measure actual enquiries and outcomes without overstating views as passengers or enquiries as completed trips.
+
+The first physical-stage pilot remains focused on online kamagera/touting. Do not expand that pilot into a full creator monetisation or advertising rollout before the core stage workflow is proven.
+
+
+## Confirmed strategic direction: the media network for a world in motion
+
+- Central positioning: **VibeMat is the media network for a world in motion.**
+- Core insight: **Everyone moves.** People commute, work, study, trade, travel, deliver goods, visit places, and explore. Movement creates audiences, changing needs, discovery opportunities, and commercial contexts.
+- VibeMat's intended business is media, discovery, audience distribution, and advertising—not ownership or operation of transport assets.
+- VibeMat is not a transport operator, booking platform, or booking website, and does not need to compete with existing booking platforms.
+- VibeMat does not need to own vehicles, fleets, roads, petrol stations, garages, spare-parts shops, shipping assets, or other physical businesses/infrastructure.
+- The potential audience includes commuters, workers, students, travellers, families, traders, drivers, passengers, visitors, and people moving goods.
+- The potential advertiser universe includes transport operators and businesses serving people in motion: fuel stations, spare-parts retailers, garages, tyre shops, insurers, restaurants, hotels, retailers, destinations, logistics firms, and relevant brands.
+- TikTok, Facebook, YouTube, Instagram, and similar platforms are potential external marketing/acquisition channels to popularise VibeMat. They are not the competitors VibeMat must defeat and are not substitutes for VibeMat's own audience/network.
+- VibeMat's own map, discovery feed, following relationships, publishers, and audience/campaign analytics form its independent media network.
+- The map and transport data/intelligence remain useful product foundations, but they do not define VibeMat as a booking or transport-operating business.
+- The first physical pilot remains online kamagera/touting at one Mainstage. It is a narrow participation/discovery test, not a broad booking launch or full advertising rollout.
+
+
+## Open questions for validating the media business
+
+- Which audience segment should be acquired first beyond the Mainstage pilot, and what recurring value brings them back?
+- Which advertiser category has the strongest early need and willingness to pay for relevant reach?
+- What is the first measurable media product: sponsored discovery, business profile promotion, campaign distribution, or another format?
+- What campaign metrics can VibeMat reliably measure without claiming that vehicle passengers saw an advert?
+- Which targeting/context signals are acceptable, useful, permissioned, and privacy-safe?
+- How should VibeMat distinguish organic publisher content, business content, and paid placements in every surface?
+- Which external channels will be used for acquisition, and how will VibeMat avoid dependence on any one platform?
+- What is the path from the Mainstage kamagera pilot to a broader movement media audience without prematurely expanding scope?
+
+These questions do not reopen the confirmed thesis. They are validation and execution decisions.
+
