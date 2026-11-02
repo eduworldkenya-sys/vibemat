@@ -207,3 +207,18 @@ Copying TikTok's feed is not an acquisition thesis. VibeMat's potential strategi
 - Whether institutional aggregate insights have a lawful, sufficiently accurate market.
 - First launch participant mix and role permissions.
 - How dashboard navigation and role switching should work.
+
+
+## Confirmed business-model direction: first monetisation experiment
+
+- First paying customer segment: **SACCOs and transport operators**.
+- First commercial value to prove: **helping operators reach more passengers**.
+- Initial experiment shape: one operator, one route/corridor, one measurable campaign.
+- Basic passenger map and transport discovery remain free.
+- VibeMat does not collect fares, hold passenger funds, or settle transport payments.
+
+This is an agreed starting hypothesis. The specific operator, route, campaign format, attribution method, success thresholds, and pricing remain open and must be defined before a pilot is represented as commercially validated.
+
+## Next blueprint activity: first release and pilot scope
+
+Define the smallest end-to-end VibeMat release that can test passenger usefulness, operator publishing value, trustworthy transport information, and the first operator-reach experiment without prematurely building every role or revenue stream.
