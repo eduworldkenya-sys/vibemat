@@ -229,3 +229,13 @@ The experience is a product hypothesis until tested with real passengers. Test w
 - Trust the source and freshness of what he sees.
 
 Measure actual usefulness, accuracy, repeat use, and user understanding. Do not claim time savings or daily retention without evidence.
+
+## Wider audience thesis: everyone moves
+
+Ken is the first passenger persona, not the definition of the entire VibeMat audience. The broader network serves people in many movement contexts: commuters, workers, students, traders, families, visitors, tourists, drivers, passengers, and people arranging the movement of goods.
+
+The experience may help people discover useful movement-related information and relevant businesses: fuel, vehicle services, spare parts, food, accommodation, destinations, retail, logistics, and other local or national services. Relevance should be based on the user's chosen context, area, route, interests, and available evidence—not an assumption that every user is commuting.
+
+VibeMat is a discovery and media network, not a booking platform or transport operator. A discovery may lead a person to contact or transact directly with an independent provider or an external service. VibeMat must not imply that it guarantees availability, performs the service, or owns the resulting transaction.
+
+The map and discovery surfaces should remain useful for both immediate practical information and wider exploration. The audience is people in motion and people interested in movement—not only passengers looking for a ride.
