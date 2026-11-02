@@ -145,3 +145,50 @@ A missing GPS update is not, by itself, proof of parking. GPS jitter, poor recep
 **Agreed default threshold: 20 minutes.** After reliable stationary detection for 20 minutes, public exact-GPS visibility is suspended and the last precise coordinate is not shown publicly. The owner/authorised operator retains exact-location access in their authenticated account and may deliberately resume sharing. Category-specific rules and temporary-session duration remain open. This is a product rule, not an implemented GPS capability.
 
 This is a proposed privacy and activity-state rule, not an implemented GPS capability.
+
+
+## Vehicle movement versus passenger presence
+
+A phone moving through space does not establish that a vehicle is moving. A passenger travelling in a matatu has a moving phone too. Therefore:
+
+- Vehicle movement evidence must originate from the vehicle's own device or a driver/operator device explicitly authorised and associated with that vehicle.
+- The vehicle owner/operator controls whether the vehicle shares approximate location, exact live GPS, or no GPS.
+- A passenger's phone must never be used as an implicit vehicle tracker or as proof of vehicle movement.
+- A user report may say a vehicle was observed at a place, but it remains a report unless independently supported by an authorised source.
+
+## Privacy-preserving stage waiting estimates
+
+VibeMat may eventually show an estimate such as “People waiting at this stage: approximately 3” only when the system has a legitimate, privacy-preserving basis to produce it.
+
+Requirements:
+- Aggregate only; never display who is waiting.
+- Never expose an individual's coordinates, identity, device identifier, arrival time, or waiting duration.
+- Use a bounded time window and minimum group threshold before displaying any count.
+- Suppress small groups and sparse observations rather than revealing or implying an individual.
+- Label the result as an estimate and show its observation window/freshness.
+- Do not equate detected phones with people; account for multiple devices, people without phones, and uncertainty.
+- Do not infer waiting merely because a phone is stationary near a stage. A person may live, work, pass through, or be waiting for something else.
+- Do not infer vehicle presence or movement from passenger-device signals.
+
+Exact minimum threshold, time window, estimation method, consent basis, and retention policy remain open and must be privacy-reviewed before implementation. No individual waiting tracker is part of the product design.
+
+## Social transport activity and feedback
+
+Transport information is the content of the social network. A publisher may share a journey declaration, departure update, stage observation, road disruption, capacity update, correction, or other transport-relevant report. Each item retains its source, timestamp, type, status, and evidence.
+
+Users may follow:
+- Operators and transport organisations.
+- Individual contributors, subject to identity and safety controls.
+- Routes and corridors.
+- Stages and transport locations.
+- Specific activities or journeys where following updates is useful.
+
+Recommended user actions:
+- **Follow:** receive relevant updates from a source, route, stage, or activity.
+- **Save/pin:** privately keep an item, route, stage, or insight for later.
+- **Confirm:** submit a structured independent confirmation of a report.
+- **Dispute/correct:** flag that information appears wrong, outdated, or contradicted.
+- **Report:** flag unsafe, abusive, fraudulent, or otherwise policy-violating content.
+- **Share:** pass a transport item to others with its source and timestamp intact.
+
+Views can support aggregate reach and publisher analytics, but are not evidence of truth. Generic likes should not determine trust or ranking. Comments and direct messages are not assumed in the first design; they need separate moderation and privacy decisions.
