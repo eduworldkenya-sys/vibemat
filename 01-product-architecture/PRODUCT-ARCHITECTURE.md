@@ -2,9 +2,11 @@
 
 ## Agreed architecture: three connected foundations
 
+The architecture serves **Everyone Moves**. Participants share one mobility network but do not all need the same home screen or workflow. The living map is a major shared spatial interface; role-aware discovery and operational surfaces may be more appropriate for particular tasks.
+
 ### 1. Living interactive map
 
-The map is the actual app canvas and primary interface—not a small card embedded in a dashboard.
+The map is a core spatial interface—not the whole product identity and not a mandatory starting screen for every role.
 
 It allows a person to:
 - Pan and zoom across places.
@@ -167,3 +169,14 @@ The user is the source of community life; operators and businesses are sources o
 The existing non-negotiable boundary remains in force: VibeMat does not collect, hold, escrow, settle, or distribute passenger fares or provider payments. It may direct a user to a provider's authorised booking/payment channel and may later offer separately scoped commercial tools, subscriptions, advertising, qualified-enquiry services, or attribution products. Any change to payment custody requires a new explicit product and legal decision; it is not implied by consolidating business models.
 
 The marketplace is a product direction, not a claim that every provider has joined or that every service is bookable. Provider onboarding, partnership permissions, API access, booking rights, commercial terms, regulatory obligations, and transaction attribution must be established individually.
+
+
+## Everyone Moves: shared network, role-aware experiences
+
+VibeMat is not organised around a single passenger persona. It serves the full mobility ecosystem through role-aware experiences over shared data, discovery, trust, and connection foundations.
+
+Participant groups include people travelling; drivers, riders, and conductors; transport operators, SACCOs, and fleet owners; taxi, bus, boda, and rental businesses; delivery, courier, cargo, and logistics providers; travel and experience businesses; and community contributors.
+
+A person may hold multiple roles. Identity and permissions must support multiple authorised roles without creating disconnected products. Each role sees relevant actions and information according to its authority. A passenger's view does not grant operator control; a provider profile does not prove service availability; and a contributor role does not grant access to private movement data.
+
+The product should be evaluated across participant value, network effects, data quality, safety, and commercial sustainability. Ken's passenger journey is one test case, not the product's organising centre.
