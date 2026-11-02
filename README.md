@@ -54,3 +54,11 @@ New ideas should be documented with their problem, intended behaviour, affected 
 ## Working method
 
 We are writing and reviewing the product blueprint before building. No HTML prototype, backend, integrations, or deployment work is authorised by this documentation stage.
+
+## Core daily-use test: Ken at 5:00 AM
+
+Ken should not need to open VibeMat only when he is already standing at a stage. At 5:00 AM, before deciding when or how to leave, he can use it to understand nearby transport activity, compare relevant options, inspect declared departures, see road conditions where sourced, and discover useful activity along or beyond his usual routes.
+
+The product must provide decision-support that a walk to Eastmar Stage alone cannot provide. It must not pretend to know live vehicle positions, stage readiness, fares, traffic, or weather without a current and identifiable source.
+
+See [Ken's 5:00 AM decision experience](02-ken-passenger-experience/KEN-5AM-DECISION-EXPERIENCE.md).
