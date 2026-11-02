@@ -108,3 +108,46 @@ For every new idea:
 6. Mark it as confirmed, recommended default, open, or rejected.
 
 Do not code or deploy until the product blueprint and first-release scope are sufficiently defined. Product hypotheses must be tested with real passengers; do not claim retention, time savings, accuracy, or readiness without evidence.
+
+
+## Additional confirmed product safeguards
+
+- Passenger phone movement must never be used as a proxy for vehicle movement. A live vehicle movement claim requires a fresh source explicitly associated with and authorised for that vehicle.
+- Vehicle GPS sharing remains under the vehicle owner/operator's choice: approximate location, exact live GPS, or none.
+- Stage waiting information, if offered, must be an anonymous aggregate estimate with a bounded time window and minimum group threshold. No individual identity, location, device ID, arrival time, or waiting duration may be exposed.
+- Device count must not be represented as passenger count without a validated estimation method. A stationary phone near a stage does not prove its owner is waiting.
+- VibeMat's social layer is transport information discovery, not a chat or entertainment product. The map and following feed should present the same underlying transport activity from different discovery perspectives.
+- Recommended account actions are follow, private save/pin, structured confirm, dispute/mark outdated, report, and share. Views are aggregate reach analytics only. Generic likes and popularity counts must not determine factual trust.
+
+## Recommended social account model (not all formally approved)
+
+The recommended first account model is:
+- Follow operators, contributors, routes/corridors, stages, and selected activities.
+- Save/pin routes, stages, activities, and insights privately by default.
+- Confirm or dispute a specific report using structured feedback.
+- Report unsafe, abusive, fraudulent, or misleading content.
+- Share an item while preserving its original source, timestamp, and status.
+- Show publishers aggregate reach analytics only; do not reveal individual viewers.
+- Do not introduce public like counts, follower-count leaderboards, open comments, or direct messages as core VibeMat mechanics.
+
+## Open decisions added by map/social design
+
+### Stage estimate privacy and quality
+- Minimum group threshold before a waiting estimate can be shown.
+- Observation time window and expiry/freshness.
+- Whether any privacy-preserving and lawful data source can estimate waiting passengers accurately enough.
+- Validation method to distinguish people waiting from people living, working, passing through, or otherwise stationary near a stage.
+- Retention and deletion rules for underlying signals.
+
+### Social network and reputation
+- Whether follow lists are private or allow user-controlled public visibility.
+- Whether individual contributor profiles require identity verification and at what level.
+- How independent confirmations are weighted and protected against coordinated manipulation.
+- Whether comments or direct messages are excluded from the first release (recommended: exclude until moderation and safety are designed).
+- Whether any positive reaction is needed beyond structured confirmation (recommended: no generic like in the first release).
+- What aggregate publisher analytics are useful without exposing individual viewers.
+
+### Map and feed
+- Exact map/feed navigation and screen relationship.
+- Whether a dedicated Discover feed is the first feed surface or map-integrated panels are sufficient for the pilot.
+- Final map layers, marker legend, and per-data-type freshness thresholds.
