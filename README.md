@@ -1,8 +1,10 @@
 # VibeMat
 
-**A transport discovery and intelligence network.**
+**A social mobility network.**  
+**Tagline:** As We Move.  
+**Product philosophy:** Everyone Moves.
 
-VibeMat helps people discover transport activity, understand movement, and make better-informed transport decisions.
+VibeMat connects the people, businesses, services, vehicles, journeys, and communities that participate in movement. It helps them discover, share, understand, and participate in mobility.
 
 ## Project status
 
@@ -10,7 +12,7 @@ VibeMat helps people discover transport activity, understand movement, and make 
 **Current rule:** No application coding or deployment until the product blueprint is sufficiently defined.  
 **Source of truth:** This repository.
 
-VibeMat is being designed as one connected transport network—not as a collection of separate apps for passengers, drivers, SACCOs, touts, vehicle owners, stages, and logistics operators.
+VibeMat is one connected mobility network—not a passenger app with secondary tools bolted on. People may participate in multiple roles, and role-specific experiences share the same underlying network.
 
 ## Product thesis
 
@@ -22,9 +24,9 @@ A person should be able to open VibeMat without already knowing what transport t
 2. **Transport intelligence:** the discovery and decision engine that interprets activity, identifies route overlap, surfaces relevant discoveries, and builds transport insights.
 3. **Data engine:** the underlying records, timestamps, sources, trust signals, permissions, and history that make the map and intelligence reliable.
 
-## First customer
+## Product organising principle
 
-The first experience is designed around **Ken, a passenger and daily commuter**. Other network participants will be designed as the product expands, but they are not separate products.
+**Everyone Moves.** The product is organised around the full mobility ecosystem: people travelling, people operating vehicles, transport businesses, logistics providers, service providers, and community contributors. Ken remains one useful passenger example, not the organising persona or the definition of the product.
 
 ## Non-negotiable money boundary
 
@@ -57,9 +59,9 @@ New ideas should be documented with their problem, intended behaviour, affected 
 
 We are writing and reviewing the product blueprint before building. No HTML prototype, backend, integrations, or deployment work is authorised by this documentation stage.
 
-## Core daily-use test: Ken at 5:00 AM
+## Core product test: Everyone Moves
 
-Ken should not need to open VibeMat only when he is already standing at a stage. At 5:00 AM, before deciding when or how to leave, he can use it to understand nearby transport activity, compare relevant options, inspect declared departures, see road conditions where sourced, and discover useful activity along or beyond his usual routes.
+Every major product decision must be tested against the needs and authority of the relevant mobility participants—not only a passenger. At 5:00 AM, before deciding when or how to leave, he can use it to understand nearby transport activity, compare relevant options, inspect declared departures, see road conditions where sourced, and discover useful activity along or beyond his usual routes.
 
 The product must provide decision-support that a walk to Eastmar Stage alone cannot provide. It must not pretend to know live vehicle positions, stage readiness, fares, traffic, or weather without a current and identifiable source.
 
