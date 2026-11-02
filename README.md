@@ -41,6 +41,7 @@ VibeMat will not collect, hold, escrow, settle, or distribute passenger fares or
 - [Business model boundaries](06-business-model/BUSINESS-MODEL.md)
 - [Privacy and trust](07-privacy-and-trust/PRIVACY-AND-TRUST.md)
 - [Road Pulse, routing, live mobility, and Travel Logs](09-road-pulse-live-mobility/ROAD-PULSE-LIVE-MOBILITY.md)
+- [Social mobility marketplace](10-social-mobility-marketplace/MOBILITY-MARKETPLACE.md)
 - [Open decisions and backlog](08-open-decisions/OPEN-DECISIONS.md)
 
 ## Decision language
@@ -63,3 +64,11 @@ Ken should not need to open VibeMat only when he is already standing at a stage.
 The product must provide decision-support that a walk to Eastmar Stage alone cannot provide. It must not pretend to know live vehicle positions, stage readiness, fares, traffic, or weather without a current and identifiable source.
 
 See [Ken's 5:00 AM decision experience](02-ken-passenger-experience/KEN-5AM-DECISION-EXPERIENCE.md).
+
+## Product identity: the social mobility network
+
+VibeMat is not being built to replace Google Maps or to become a single transport operator. Its ambition is to change how people discover, experience, share, and participate in transport. The map, routing, and location capabilities are infrastructure serving that experience—not the whole product identity.
+
+The product combines a living mobility network with social discovery and a multi-provider commercial marketplace. Users and independent businesses bring the activity, services, stories, and supply. VibeMat connects them through shared discovery, trusted information, and provider-authorised service journeys.
+
+See [Social mobility marketplace](10-social-mobility-marketplace/MOBILITY-MARKETPLACE.md) for the provider categories, business models, integration boundaries, and commercial principles.
