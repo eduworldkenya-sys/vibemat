@@ -133,3 +133,37 @@ These capabilities extend the existing three-part architecture; they do not crea
 - Live video is a separately authorised media source. Only privacy-processed output may be distributed.
 - Travel Logs are user-controlled journey records and remain distinct from live road reports.
 - Offline data is cached and labelled with its last-updated time; offline state must never masquerade as live intelligence.
+
+
+## Social mobility marketplace and consolidated transport economy
+
+VibeMat's product identity is a **social mobility network and multi-provider marketplace**, not a map replacement and not a transport operator. It brings independent transport businesses, services, users, and mobility experiences into one discoverable ecosystem.
+
+The marketplace is intended to accommodate multiple provider categories and their distinct business models, including:
+- Ride-hailing and taxis (for example, Uber, Bolt, and independent taxi fleets).
+- Intercity and scheduled bus operators (for example, 2NK, Mololine, and other coach/shuttle businesses).
+- Matatus, SACCOs, city buses, and other public or informal transport.
+- Boda bodas, motorcycle taxis, tuk-tuks, and local mobility providers.
+- Car hire, vehicle rental, tours, travel and road-trip services.
+- Parcel, courier, delivery, cargo, lorry, truck, and logistics businesses.
+- Other mobility-adjacent services that genuinely serve transport needs.
+
+These examples describe provider categories, not existing partnerships, integrations, availability, or endorsements. Each business remains independently owned and responsible for its own operations, prices, fulfilment, licences, customer service, and contractual terms.
+
+### Consolidation means one ecosystem, not one operator
+
+VibeMat provides a common layer for discovery, provider presence, social distribution, enquiries and authorised connections, and transparent commercial attribution. Actual service delivery and each provider's business model remain with that provider unless a separately approved integration explicitly changes that boundary.
+
+A provider may participate through a basic public listing, a self-managed business profile, a structured activity feed, a booking/ticketing integration, or another authorised connection. Integration depth must be explicit per provider. A listing or link must never be presented as live inventory, confirmed availability, a booking, or a completed transaction.
+
+### Social mobility experience
+
+The social layer makes mobility experiences discoverable and shareable: road-facing dashcam clips, journey stories, route explainers, stage updates, travel logs, service announcements, and useful community observations. Content must be connected to relevant transport context where possible, with clear source, time, status, and freshness. Entertainment or reach must never override safety, truth, or privacy.
+
+The user is the source of community life; operators and businesses are sources of services; VibeMat supplies the shared discovery and connection environment. Users control their own travel logs and sharing choices. Providers control their own business activity and authorised integrations.
+
+### Commercial boundary and current decision
+
+The existing non-negotiable boundary remains in force: VibeMat does not collect, hold, escrow, settle, or distribute passenger fares or provider payments. It may direct a user to a provider's authorised booking/payment channel and may later offer separately scoped commercial tools, subscriptions, advertising, qualified-enquiry services, or attribution products. Any change to payment custody requires a new explicit product and legal decision; it is not implied by consolidating business models.
+
+The marketplace is a product direction, not a claim that every provider has joined or that every service is bookable. Provider onboarding, partnership permissions, API access, booking rights, commercial terms, regulatory obligations, and transaction attribution must be established individually.
