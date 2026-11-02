@@ -1,8 +1,16 @@
 # VibeMat Product Vision
 
+## Brand direction
+
+**Brand:** VibeMat  
+**Working tagline:** As We Move.  
+**Product philosophy:** Everyone Moves.
+
+The tagline is a working brand direction, not a claim of trademark or domain clearance. Global and Kenyan name clearance remains open and must be completed before major brand investment or international launch.
+
 ## One-sentence definition
 
-VibeMat is a transport discovery and intelligence network that helps people discover transport activity, understand movement, and make better-informed transport decisions.
+VibeMat is a social mobility network that connects the people, businesses, services, vehicles, journeys, and communities that participate in movement—helping them discover, experience, share, and connect through mobility.
 
 ## The problem space
 
@@ -35,9 +43,9 @@ The product borrows the *discovery principle* of a content feed: a user does not
 
 These distinctions do not prevent future transport services from being considered. They define the central product identity.
 
-## First customer: Ken
+## Participants, not a single organising persona
 
-The first product experience is designed around Ken as a passenger/customer. He is a daily commuter in Babadogo, near Eastmar Stage, with Allsops and Drive-In also nearby. His usual destination includes Industrial Area and town, but his needs can vary.
+VibeMat is designed for everyone who moves, moves something, operates mobility, or enables movement. Participants include commuters and travellers; drivers, conductors, and riders; bus, taxi, matatu, boda, and fleet operators; SACCOs; cargo and delivery businesses; travel and rental providers; and community contributors. A person may hold multiple roles. Role-specific experiences share one underlying mobility network. Ken remains a passenger use case, not the defining customer for the whole platform. He is a daily commuter in Babadogo, near Eastmar Stage, with Allsops and Drive-In also nearby. His usual destination includes Industrial Area and town, but his needs can vary.
 
 The product should answer a simple question: **Why would Ken open VibeMat when he already knows the nearby stages and can walk to them?**
 
@@ -58,15 +66,13 @@ The answer must be useful discovery and intelligence he cannot reliably get mere
 
 ## Scope sequence
 
-**Agreed:** begin with the passenger experience, using Ken as the first customer.
+**Agreed:** organise the product around Everyone Moves, with role-specific experiences sharing one mobility network.
 
-**Proposed:** expand the documented experience to drivers, operators, SACCOs, touts, vehicle owners, stages, and logistics participants after the passenger experience is coherent.
+**Open:** which participant groups and end-to-end workflows belong in the first pilot. Pilot sequencing must be selected by evidence, feasibility, safety, and network value—not by treating one persona as the permanent centre of the product.
 
-This is a product-design sequence, not a statement that those participants are unimportant.
+## Everyday value across the mobility network
 
-## Daily habit and the 5:00 AM value test
-
-VibeMat must have value before a passenger reaches a stage. Ken may open it at 5:00 AM while still at home and before he has decided to leave. The app should help him form a better picture of the transport environment and make a more informed decision.
+VibeMat must create useful value for different participants at the moments relevant to their roles. A passenger may discover options before leaving; a driver may publish an authorised journey; an operator may update service activity; a courier may communicate delivery coverage; and a contributor may share a privacy-safe road observation. Ken's 5:00 AM scenario remains one passenger test within the broader Everyone Moves model.
 
 The value is not simply “show the nearest stage.” Ken already knows Eastmar, Allsops, and Drive-In. The value is combining information that is otherwise fragmented:
 - What transport activity has been declared nearby?
