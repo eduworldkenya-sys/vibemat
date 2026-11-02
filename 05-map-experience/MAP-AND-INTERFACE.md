@@ -162,3 +162,12 @@ Support two clearly named route modes:
 - **Predictive route:** a time-aware estimate that may account for expected congestion, waiting, stage activity, incidents, weather where sourced, and historical travel patterns. Show estimated arrival range, confidence, evidence sources, and update time.
 
 A predictive route is an estimate, not a promise. If evidence is weak or unavailable, show the normal route and say that prediction is unavailable. See the complete specification in [Road Pulse, Routing, Live Mobility, and Travel Logs](../09-road-pulse-live-mobility/ROAD-PULSE-LIVE-MOBILITY.md).
+
+## Map within the wider VibeMat media network
+
+The map remains an important spatial discovery surface, but VibeMat's overall audience is broader than people searching for transport. Everyone moves: people commute, work, study, trade, travel, deliver goods, visit destinations, and explore. Map context can help people discover movement-related information, places, services, and relevant businesses.
+
+The map is not a booking interface by default and should not imply VibeMat operates the vehicles, businesses, or services shown. A marker or promoted item is a discovery entry point; the underlying provider remains responsible for its service, availability, and any direct transaction.
+
+VibeMat's media network may also use feed, publisher profiles, following, and campaign surfaces. These are complementary discovery surfaces over governed content and activity records. The map should not be treated as the entire business or as a requirement to turn VibeMat into a transport marketplace.
+
