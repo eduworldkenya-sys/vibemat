@@ -367,3 +367,32 @@ A moving vehicle, published journey, route, or corridor may provide context for 
 - VibeMat does not collect fares, hold passenger funds, or operate creator wallets/payouts in the initial model. Any creator compensation is arranged and paid directly by the contracting operator/business unless a separately approved future model changes this boundary.
 
 The agreed first monetisation hypothesis remains operator/SACCO reach: one operator, one route/corridor, one measurable campaign. The broader TikTok-style ecosystem is the strategic direction; creator monetisation, ad formats, targeting, pricing, inventory, and rollout sequence still require validation.
+
+## Confirmed central business thesis: a media network for a world in motion
+
+**Positioning:** VibeMat is the media network for a world in motion. Everyone moves, and movement creates audiences, changing needs, discovery opportunities, and commercial contexts. VibeMat's business opportunity is to connect those audiences with useful information, publishers, businesses, and relevant advertising.
+
+VibeMat is not trying to enter the transport industry as an operator. It does not need to construct petrol stations, own spare-parts shops, operate vehicles, run fleets, own shipping assets, drive cars, or build transport infrastructure. It also does not need to compete with booking platforms or booking websites. Its asset is the digital media/discovery relationship: audience, attention, distribution, creator/contributor participation, contextual relevance, campaign delivery, and trustworthy measurement.
+
+### Audience and advertiser universe
+The audience includes commuters, workers, students, travellers, families, traders, drivers, passengers, visitors, and people moving goods. The advertiser universe can include transport operators and businesses serving people in motion: fuel stations, spare-parts retailers, garages, tyre shops, insurers, restaurants, hotels, shops, destinations, logistics providers, and relevant consumer brands. These businesses can advertise in VibeMat in the same way businesses use other media channels; VibeMat does not need to own or operate them.
+
+### What VibeMat sells
+- Access to relevant audiences through clearly labelled advertising and sponsored discovery.
+- Distribution for useful publisher/creator content and business campaigns.
+- Contextual visibility around movement, routes, areas, destinations, and user-selected interests, subject to privacy and permission controls.
+- Aggregate campaign analytics and honest attribution of reach, intent, and outcomes.
+- Potential campaign services connecting brands/operators with suitable creators or contributors.
+
+VibeMat should not sell guaranteed passengers, guaranteed bookings, guaranteed sales, or access to individual movement histories. It must not equate vehicle traffic with VibeMat audience reach. Individual-level targeting or sensitive location profiling is not implied by this strategy and requires separate privacy/legal review.
+
+### External platforms as acquisition channels
+TikTok, Facebook, YouTube, Instagram, and similar platforms are potential marketing and audience-acquisition channels for VibeMat. Use them to popularise VibeMat, distribute creator examples, and bring interested people into VibeMat's own network. They are not the competitors VibeMat needs to defeat, nor should VibeMat's core audience relationship depend on their algorithms or accounts. VibeMat must build its own product, audience, publisher relationships, and advertiser value.
+
+### Business success measures
+Measure active and returning audience, relevant reach, content discovery, publisher participation, follows, advertiser demand, campaign delivery, qualified enquiries, and attributable outcomes. Keep Attention, Intent, Outcome, and Trust evidence separate. Views are not customers; enquiries are not sales; vehicle passengers are not proven ad impressions.
+
+### What remains unchanged
+The first paying-customer hypothesis remains SACCOs and transport operators, with one operator, one route/corridor, and one measurable campaign as a later commercial experiment. This is not proof that operators will pay. The first physical-stage pilot remains online kamagera/touting at one Mainstage and should prove participation and useful connections before broad advertising or creator monetisation is introduced.
+
+VibeMat does not collect fares, hold passenger funds, operate fare escrow, or run a transport wallet. Any provider transaction remains directly between the user and provider unless a separately approved future model changes this boundary.
