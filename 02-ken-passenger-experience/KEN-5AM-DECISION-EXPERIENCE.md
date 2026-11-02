@@ -121,3 +121,91 @@ These are hypotheses, not proven outcomes. Pilot research must test them.
 - Do not show historical reports as current.
 - Do not expose Ken's home location.
 - Do not invent traffic, weather, fare, or availability data.
+
+
+## Morning map information hierarchy
+
+This is the proposed default hierarchy for the first passenger experience.
+
+### A. Immediately visible on opening
+
+1. **Map canvas:** Ken's permitted current/selected location, nearby roads, Eastmar, Allsops, and Drive-In.
+2. **Relevant activity markers:** only markers whose type and status can be explained; distinguish stages, declared journeys, reported vehicles, verified live positions, and aggregated areas.
+3. **Compact morning briefing:** a short ranked summary of the most decision-relevant fresh information. Do not fill empty space with fabricated activity.
+4. **Core controls:** search, locate me, map layers, and access to Discover/Insights/Profile.
+
+Do not require Ken to enter a destination before he can explore. If destination or intended departure time would materially improve a comparison, offer it as an optional refinement.
+
+### B. Morning briefing order
+
+Show information in this order, omitting categories for which there is no trustworthy data:
+
+1. **Journey opportunities:** declared journeys and departure windows relevant to Ken's saved or selected direction/time.
+2. **Explicit availability:** providers who have declared they are accepting passengers/requests or have stated capacity.
+3. **Nearby stage activity:** comparable recent reports for Eastmar, Allsops, and Drive-In.
+4. **Disruptions and road context:** sourced incidents, traffic or road-condition reports relevant to the route.
+5. **Weather context:** sourced forecast/current conditions only when useful to the journey.
+6. **Changes since last check:** only when the system can establish a real change from stored history.
+
+The briefing is not a recommendation to board or a booking confirmation. It helps Ken decide what to inspect or verify.
+
+### C. When Ken taps a stage
+
+The stage detail should show:
+
+- Stage name, mapped position, and any useful alias.
+- Activity summary with the time window it covers.
+- Recent vehicle/operator reports, each with its own status.
+- Declared departure windows and destinations.
+- Explicit passenger availability/capacity declarations.
+- Relevant route or road reports.
+- Source, timestamp, freshness, and confidence/verification label for each time-sensitive item.
+- A clear empty state when there is no recent reliable activity.
+
+Do not combine all reports into one unqualified “stage is busy” claim. Show the time period and evidence behind any activity summary.
+
+### D. When Ken taps a journey or vehicle activity
+
+Show the fields that apply:
+
+- Activity type and publisher/operator.
+- Origin and destination.
+- Declared route or corridor.
+- Planned departure time/window.
+- Vehicle type and identifying details appropriate for public display.
+- Capacity or availability only if explicitly declared and still valid.
+- Journey status: planned, updated, withdrawn, departed, completed, or historical, as supported.
+- Source identity/type, publication/update time, and expiry/freshness.
+- Contact or next action only where the publisher has intentionally enabled it.
+
+A route drawn on the map is not proof of live movement. A planned departure is not a guaranteed departure. A capacity declaration is not a guaranteed seat.
+
+### E. Expanded details versus map overlays
+
+Keep the map overlays short: one useful fact, its status, and its freshness. Put explanations, publisher details, multiple reports, route history, and comparisons in the expandable detail view.
+
+Do not cover the map with a long feed. Ken must be able to dismiss the briefing and continue exploring.
+
+### F. Evidence and freshness display
+
+Every time-sensitive item must make clear:
+- **Status:** planned, reported, verified, live, expired, or historical.
+- **Source:** operator, stage agent, partner, passenger/user report, independent system, or estimate.
+- **Time:** when it was published or last updated.
+- **Freshness:** whether it remains within the defined validity window.
+
+The product team must define expiry thresholds per data type. Do not invent a universal threshold or imply verification where none exists.
+
+### G. No-data and offline states
+
+If there is no reliable live data, keep the map useful and say plainly that recent activity is unavailable. Do not show empty charts, fake counts, or guessed stage rankings.
+
+If offline, show cached content only when available and label its last update prominently. Never describe cached data as live/current. Disable or qualify actions that need a network confirmation.
+
+### H. Interaction flow
+
+Open map → scan briefing → compare nearby stage summaries → tap a stage or journey → inspect source/status/time → decide whether to leave, which stage to inspect, or what to confirm directly.
+
+The user remains in control; VibeMat does not dispatch a vehicle or make a boarding decision for Ken.
+
+**Status:** Proposed screen hierarchy. The evidence rules are product constraints; visual layout, ranking logic, data sources, and expiry thresholds still require validation.
