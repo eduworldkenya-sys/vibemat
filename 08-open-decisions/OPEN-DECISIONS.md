@@ -4,10 +4,12 @@ This document is the product decision register. It distinguishes user-confirmed 
 
 ## Confirmed product decisions
 
+- Working brand direction: **VibeMat — As We Move.** Product philosophy: **Everyone Moves.** The tagline is not yet legally or internationally cleared.
+
 - VibeMat is a transport discovery and intelligence network.
 - The architecture is hybrid: a living interactive map, a transport intelligence/discovery layer, and an underlying data engine.
 - The map is the main app canvas.
-- The first designed customer is Ken as a passenger.
+- VibeMat is organised around **Everyone Moves**: role-specific experiences share one underlying mobility network; Ken is a passenger use case, not the organising persona.
 - The transport ecosystem is one connected network, not separate apps for each participant.
 - Dynamic transport activities and journeys are central to the product.
 - Visibility, availability, commercial intent, planned journey, live movement, and historical activity are distinct concepts.
@@ -252,3 +254,13 @@ The following capabilities are now part of the agreed product direction. Their d
 - Offline report queueing, duplicate prevention, upload conflict resolution, and explicit separation of cached from live data.
 
 These decisions require product, technical, safety, and legal review before implementation or public launch.
+
+
+## Brand and naming clearance
+
+- Working public brand direction is **VibeMat — As We Move.**
+- **Everyone Moves** is the product philosophy, not a separate product name.
+- Preliminary web research surfaced unrelated businesses using VibeMat or a similar name. This does not establish a legal conflict, nor does it establish global availability.
+- Before significant brand investment or international launch, complete documented searches of Kenya's company and trademark registers, WIPO's Global Brand Database, relevant national trademark registers in target markets, and relevant goods/services classes covering software, transport, logistics, marketplace and related services.
+- Check domains and social handles separately; domain availability does not establish trademark rights.
+- Until clearance is complete, describe the mark as a working brand direction. Do not claim it is globally unique, registered, or legally available.
