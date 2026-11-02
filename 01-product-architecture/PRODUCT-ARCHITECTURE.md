@@ -142,3 +142,33 @@ A moving vehicle may provide transport context for a route- or area-relevant cam
 
 ### Product boundary
 Use the mechanics and staged commercial ecosystem of TikTok, not entertainment-first incentives. Transport usefulness, accuracy, privacy, and user control remain foundational. Do not copy addictive engagement mechanics, reward sensationalism, or let ads obscure transport activity.
+
+## Confirmed strategic thesis: the media network for a world in motion
+
+**Central positioning:** VibeMat is a media, discovery, and advertising network for a world in motion. Its core opportunity is to connect audiences, publishers, businesses, and useful information around human movement—not to own or operate transport assets.
+
+**Everyone moves.** People commute, study, trade, travel, deliver goods, visit family, work, explore, and move between places. Movement creates changing contexts, audiences, needs, and commercial opportunities. VibeMat aims to become a valuable media network where people discover relevant information and businesses reach audiences in those contexts.
+
+### What VibeMat is—and is not
+- VibeMat is a media/discovery network and advertising channel focused initially on transport and movement-related contexts.
+- It is not a taxi, bus, matatu, logistics, shipping, dispatch, or vehicle-operating company.
+- It is not a booking platform or a booking website, and it does not need to compete with existing booking platforms.
+- It does not need to own vehicles, roads, petrol stations, garages, shops, fleets, or other physical infrastructure.
+- It may connect discovery to an external provider or destination, but that does not make VibeMat the provider or booking/payment intermediary.
+
+### The market is broader than transport operators
+Transport is the initial subject matter and entry point, not the limit of the media opportunity. The potential ecosystem includes passengers, commuters, travellers, students, workers, traders, drivers, operators, cargo participants, and businesses that serve people in motion: fuel stations, spare-parts shops, garages, tyre businesses, insurers, restaurants, hotels, retailers, destinations, logistics firms, and other relevant brands.
+
+### Media-network mechanics
+VibeMat's value can come from its audience and distribution: useful publishing, discovery, following, creator/contributor reach, contextual advertising, sponsored content, business campaigns, and privacy-safe measurement. Transport activity and movement-related stories are content and context. Businesses can advertise in the network without VibeMat owning their products or services.
+
+The existing map, activity data, intelligence, and discovery foundations remain useful: they provide spatial context and trustworthy movement-related information. They are components of the media network, not evidence that VibeMat must become a transport operator or booking service.
+
+### External social platforms are distribution channels
+TikTok, Facebook, YouTube, Instagram, and similar platforms can be used to introduce and popularise VibeMat through marketing, creator content, and links into VibeMat. They are not the competitors VibeMat must defeat, and VibeMat must not depend on them as its own product or audience infrastructure. VibeMat builds and owns its transport/movement-focused network and audience relationship; external platforms can help acquire that audience.
+
+### Strategic success measures
+Do not judge the media business only by bookings, vehicles listed, or trips completed. Track relevant reach, active and returning audience, content discovery, follows, publisher participation, advertiser demand, campaign delivery, qualified enquiries, and honestly attributed outcomes. Keep attention, intent, outcomes, and trust evidence distinct. Never claim that a vehicle's passengers saw an advert merely because the vehicle was on a route.
+
+### Pilot boundary
+The first real-world pilot remains narrow: online kamagera/touting at one physical Mainstage. It tests whether stage-based transport information and touting can gain useful online discovery and connections. It is a seed for participation and audience—not a launch of a booking platform, a broad ad network, or full creator monetisation.
