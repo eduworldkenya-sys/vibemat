@@ -73,3 +73,16 @@ The core unit should be **transport activity**, not only a static vehicle or rou
 **Agreed:** three-part architecture—living map, transport intelligence, and underlying data engine.
 
 **Open:** exact technical architecture, data providers, map provider, tracking mechanisms, and launch infrastructure. These are deliberately not being selected during the product-notes stage.
+
+## Morning decision-support flow
+
+The architecture should support a passenger decision cycle:
+
+1. **Context:** establish the user's chosen/current map area and relevant time window, with permission-aware location use.
+2. **Collect:** retrieve nearby stage, route, journey, vehicle/activity, road, traffic, and weather information only from available sources.
+3. **Qualify:** label each item as operator-declared, user-reported, partner-supplied, verified live, estimated, or historical; attach timestamps and freshness.
+4. **Interpret:** identify relevant departures, route alternatives, overlaps, and meaningful changes without converting estimates into facts.
+5. **Present:** show a compact map-first briefing with expandable evidence and details.
+6. **Decide:** let Ken inspect options and decide whether/when to leave or which stage/route to consider. VibeMat does not guarantee a seat or make the decision for him.
+
+The system must degrade honestly: if live stage data is unavailable, show that it is unavailable rather than inventing stage readiness. If offline, show cached information with its last-updated time and disable claims that require a live connection.
