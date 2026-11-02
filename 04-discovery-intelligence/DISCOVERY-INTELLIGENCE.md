@@ -240,3 +240,42 @@ The five-minute rule is an observation-freshness window, not an automatic incide
 Normal routing uses the known network. Predictive routing estimates likely journey conditions using appropriately sourced live reports, time-dependent patterns, and available transport declarations. Prediction outputs must include uncertainty, source/freshness context, and an honest unavailable state when evidence is insufficient.
 
 Video, photos, voice, and text can support evidence assessment, but media duplication is not independent corroboration. Machine-detected events are candidate observations until validated by the applicable evidence policy.
+
+## Confirmed direction: TikTok-style open discovery, following, and recommendations
+
+VibeMat will use a TikTok-style discovery model adapted to transport. The product direction includes both an open recommendation feed and a Following feed, alongside the living map.
+
+### Distribution surfaces
+- **Open discovery / For You-style feed:** recommends eligible transport activity and useful transport content from across the network, including publishers the user does not follow.
+- **Following feed:** shows eligible new and updated items from followed contributors, operators, routes, corridors, stages, and activities.
+- **Map discovery:** presents the same underlying activity spatially.
+- These are distribution surfaces over shared records, not separate content databases.
+
+### Recommendation signals and guardrails
+Recommendations may consider explicit interests, followed sources, selected/current area, route/time relevance, freshness, content diversity, and prior meaningful actions. Attention signals can inform distribution but must not become proof of truth or quality. Evidence eligibility, permissions, privacy, freshness, contradiction checks, and safety screening must precede ranking.
+
+Views, impressions, watch/consumption events, and follows are Attention analytics. Saves and enquiries are Intent. Verified boarding, delivery, or fulfilled service are Outcomes only when supported by credible measurement. Confirmations, disputes, corrections, and source history remain separate trust evidence. Do not optimise solely for watch time, raw views, or popularity.
+
+### Sponsored distribution
+Sponsored transport or business content may be inserted into relevant discovery contexts, including route- or area-aware feed/map placements, only with clear paid labels and commercial separation from organic ranking and factual verification. Payment cannot buy a verified badge, a false availability/movement claim, or favourable trust treatment. Safety-critical and essential disruption information must not be displaced by ads.
+
+A moving vehicle can define route/area context for an advert, but it does not establish that passengers onboard are VibeMat users or that they saw the advert. Report only measured VibeMat audience exposure; never invent onboard reach.
+
+Exact recommendation formula, ad inventory, frequency caps, targeting permissions, creator eligibility, and measurement thresholds remain open for later design and validation.
+
+
+## Confirmed strategic context: discovery for a world in motion
+
+VibeMat's discovery network is intended for everyone who moves or has an interest in movement—not only people actively searching for a ride. People commute, study, work, trade, travel, deliver goods, visit places, and explore. Their contexts create changing information needs and opportunities for relevant businesses to reach audiences.
+
+Discovery may therefore include useful transport information, journeys and stage activity, destinations, local services, and relevant business content or advertising. Potential advertiser categories include fuel, spare parts, garages, tyres, insurance, food, accommodation, retail, logistics, and other services relevant to a person's movement context.
+
+Commercial relevance must not override evidence eligibility, privacy, safety, or user control. Paid content must be clearly labelled and distinguished from organic information. Payment cannot buy verification, factual status, or a false claim of availability. Ranking and measurement must not imply that all passengers in a vehicle are VibeMat users or have seen an advert.
+
+
+## External distribution versus VibeMat discovery
+
+TikTok, Facebook, YouTube, Instagram, and similar services may distribute VibeMat marketing and creator content to attract people into the network. They are external acquisition channels, not the destination VibeMat must compete against or depend on. VibeMat's own map, feed, following relationships, publisher network, and audience analytics remain its independent discovery infrastructure.
+
+Discovery should serve both practical intent and open exploration. It must not assume every session is a booking search or that all relevance is defined by a commute.
+
