@@ -98,3 +98,25 @@ A full lorry may still be discoverable as a journey. It should not be presented 
 - How are conflicting declarations handled?
 - How should a participant correct a wrong location or departure time?
 - Which activities can be published anonymously or with limited identity?
+
+## Activity data that can support a passenger's morning decision
+
+Transport activity may support passenger discovery when it includes relevant time and place context. Examples include:
+- A bus or matatu operator publishing a planned departure.
+- A driver declaring a recurring route or an occasional trip.
+- A provider explicitly indicating spare capacity or that they are full.
+- A stage agent or trusted source publishing a recent stage update.
+- A participant reporting a road disruption or route change.
+
+A declaration is not proof of physical presence or movement. Activity records should preserve who supplied the information, when it was supplied, its status, and any subsequent correction.
+
+For a stage, distinguish at minimum:
+- Stage exists as a mapped place.
+- Operator or vehicle is associated with the stage.
+- Vehicle is reported present.
+- Vehicle is independently/technically verified present.
+- Vehicle is accepting passengers or requests.
+- Vehicle is preparing to depart.
+- Vehicle has departed.
+
+These are different facts and may require different evidence. Do not compress them into one “bus at stage” status.
