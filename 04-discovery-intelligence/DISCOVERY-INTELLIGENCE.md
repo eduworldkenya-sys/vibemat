@@ -2,7 +2,18 @@
 
 ## Purpose
 
-The intelligence layer helps users discover relevant activity and understand transport patterns without requiring them to know exactly what to search for.
+The intelligence layer helps VibeMat understand transport information, identify relationships and patterns, and support discovery without requiring users to know exactly what to search for.
+
+This is broader than sorting a list of vehicles. Ranking is one part of discovery; intelligence also interprets movement, route overlap, stage activity, demand/capacity signals, and changes over time.
+
+## Four connected responsibilities
+
+- **Data:** records what has been declared, reported, observed, verified, or stored historically. It answers: “What information do we have?”
+- **Intelligence:** interprets that information to identify meaning, patterns, relationships, confidence, relevance, and possible implications. It answers: “What does this information suggest?”
+- **Discovery:** selects which activities or insights to surface to which users, in what order and context. It answers: “What should this person be shown now?”
+- **Map:** provides the spatial interface to see, navigate, inspect, and explore the transport network. It answers: “Where is this happening, and what can I explore?”
+
+The data engine is the foundation. Intelligence interprets the data. Discovery distributes findings. The map makes the network explorable.
 
 ## Discovery examples
 
@@ -33,6 +44,8 @@ Ken opens the map and sees a lorry passing through Babadogo, even though he did 
 - Personal travel trends.
 - Historical transport intelligence.
 - Cross-location and national discovery.
+- Change detection across time when comparable history exists.
+- Evidence and confidence interpretation.
 
 These are capability candidates. They should not be represented as already operational.
 
@@ -41,6 +54,45 @@ These are capability candidates. They should not be represented as already opera
 Personalisation can prioritise activity based on a user's location, travel patterns, followed routes, and expressed interests. It must not geographically confine the user.
 
 Ken should be able to explore other parts of Nairobi, other counties, and eventually other supported regions.
+
+If Ken has not specified a destination, VibeMat must not pretend to know which departure is best for that destination. It can present a balanced nearby discovery view, use preferences Ken has explicitly provided, and invite optional refinement.
+
+## Evidence and eligibility before ranking
+
+Discovery must first determine what an item is eligible to claim and where it may appear. Ranking must never make weak or stale evidence look trustworthy.
+
+Before an item can appear in a time-sensitive category:
+1. Check its lifecycle status: planned, updated, withdrawn, departed, completed, expired, or historical, as applicable.
+2. Check its source and evidence type.
+3. Check its timestamp and validity/freshness for that data type.
+4. Check for contradictions, duplicates, or superseding updates.
+5. Check permissions and visibility rules.
+6. Restrict the claim to what the evidence supports.
+
+For example, an expired availability declaration must not appear as currently available. A planned departure may appear as planned, not guaranteed. A user report must not be labelled independently verified. Historical activity may inform patterns but must not appear as live movement.
+
+Items that fail a live/current eligibility check may still be shown in an appropriately labelled reported, stale, or historical context if that is useful and safe. They must not be promoted as current availability or verified live activity.
+
+## Proposed discovery ranking model
+
+After eligibility and evidence checks, discovery can rank eligible items using a context-sensitive model:
+
+1. **User relevance:** fit with the user's current map area, time window, stated destination, followed routes, and explicit preferences.
+2. **Evidence quality and freshness:** source reliability, verification level, recency, and consistency.
+3. **Activity and discovery value:** meaningful new activity, useful diversity, route overlap, or a pattern that may help the user explore.
+
+The ordering above is a proposed priority, not an approved numeric formula. No fixed 50/35/15 weights have been approved. Activity volume should not automatically win: a crowded stage with many weak reports must not outrank a useful, credible journey merely because it has more markers.
+
+When the destination is unknown, use nearby/time relevance and a balanced mix of activity types rather than inventing destination relevance. Preserve map exploration so personalisation does not trap users in a narrow feed.
+
+The system should be able to explain why an item appeared, for example:
+- “Near your selected area.”
+- “Declared departure within your chosen time window.”
+- “Matches a route you follow.”
+- “Recently updated by the operator.”
+- “Possible route overlap with your selected journey.”
+
+Only show an explanation that is supported by the actual data and logic.
 
 ## Trust and evidence
 
@@ -53,19 +105,11 @@ Every insight should be grounded in available evidence and identify its nature w
 - Aggregated historical pattern.
 - Estimated or inferred.
 
-The system must not label a declaration as independently verified. Estimates must not be displayed as exact facts.
+The system must not label a declaration as independently verified. Estimates must not be displayed as exact facts. Time-sensitive items should show source, publish/update time, and an appropriate freshness or expiry state.
 
 ## Intelligence outputs versus guarantees
 
 A possible route match is not a confirmed booking. A predicted departure is not a guaranteed departure. A heatmap is not proof of an individual vehicle's current position. A demand pattern is not a promise of customers.
-
-## Open questions
-
-- What minimum evidence is needed before showing a route match?
-- How should confidence and freshness be displayed?
-- How should duplicate or contradictory reports be reconciled?
-- Which insights should be public, personalised, or restricted?
-- What thresholds are required before publishing aggregated trends?
 
 ## Morning briefing and decision intelligence
 
@@ -82,8 +126,18 @@ Potential briefing components:
 
 Rank information by usefulness and confidence, not merely by how many markers exist. Do not generate a “best option” where evidence is too weak. Show uncertainty and let Ken inspect the evidence.
 
-### First intelligence use case
+## First intelligence use case
 
 **Proposed:** compare activity across Ken's nearby stages and surface relevant planned transport before he leaves home.
 
 This is not yet a verified capability. It depends on obtaining sufficiently fresh and trustworthy stage/operator activity data. Without those sources, the interface must state the limitation.
+
+## Open questions
+
+- What minimum evidence is needed before showing a route match?
+- What freshness/expiry rules should apply to each activity type?
+- How should confidence and freshness be displayed?
+- How should duplicate or contradictory reports be reconciled?
+- Which insights should be public, personalised, or restricted?
+- What thresholds are required before publishing aggregated trends?
+- How should ranking be evaluated with real passenger behaviour before any numeric weights are fixed?
