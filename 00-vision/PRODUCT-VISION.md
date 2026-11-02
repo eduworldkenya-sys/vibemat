@@ -63,3 +63,25 @@ The answer must be useful discovery and intelligence he cannot reliably get mere
 **Proposed:** expand the documented experience to drivers, operators, SACCOs, touts, vehicle owners, stages, and logistics participants after the passenger experience is coherent.
 
 This is a product-design sequence, not a statement that those participants are unimportant.
+
+## Daily habit and the 5:00 AM value test
+
+VibeMat must have value before a passenger reaches a stage. Ken may open it at 5:00 AM while still at home and before he has decided to leave. The app should help him form a better picture of the transport environment and make a more informed decision.
+
+The value is not simply “show the nearest stage.” Ken already knows Eastmar, Allsops, and Drive-In. The value is combining information that is otherwise fragmented:
+- What transport activity has been declared nearby?
+- Which departures or journeys are planned, and for what time?
+- Which providers are actually accepting requests, as distinct from merely being visible?
+- What is reported about stage activity, route conditions, traffic, or weather, and how fresh is it?
+- Are there relevant alternatives or route changes?
+- What useful transport activity is happening elsewhere that he chooses to explore?
+
+This is decision support, not a guarantee of transport availability or journey outcomes.
+
+### Product value test
+
+A feature belongs in the 5:00 AM experience only if it helps Ken understand, compare, plan, or act. A decorative marker with no useful, trustworthy information is not enough. Every time-sensitive claim must disclose its source and freshness.
+
+### Habit hypothesis (not yet proven)
+
+A useful morning briefing may give Ken a reason to open VibeMat before leaving. This is a hypothesis to validate with real passenger testing, not an established retention result.
