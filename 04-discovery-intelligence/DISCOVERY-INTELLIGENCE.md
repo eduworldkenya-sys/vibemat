@@ -66,3 +66,24 @@ A possible route match is not a confirmed booking. A predicted departure is not 
 - How should duplicate or contradictory reports be reconciled?
 - Which insights should be public, personalised, or restricted?
 - What thresholds are required before publishing aggregated trends?
+
+## Morning briefing and decision intelligence
+
+A possible first intelligence experience is a short morning briefing for Ken. It should not be a generic feed. It should answer practical questions using the best available evidence for his selected time and area.
+
+Potential briefing components:
+- Nearby stage activity summaries with source and update time.
+- Planned departures and declared journey windows.
+- Explicit availability or capacity declarations.
+- Relevant route conditions, traffic reports, and disruptions.
+- Weather context when sourced.
+- Alternatives and route overlaps relevant to his destination.
+- Changes since his last visit, where the system has enough history to support that comparison.
+
+Rank information by usefulness and confidence, not merely by how many markers exist. Do not generate a “best option” where evidence is too weak. Show uncertainty and let Ken inspect the evidence.
+
+### First intelligence use case
+
+**Proposed:** compare activity across Ken's nearby stages and surface relevant planned transport before he leaves home.
+
+This is not yet a verified capability. It depends on obtaining sufficiently fresh and trustworthy stage/operator activity data. Without those sources, the interface must state the limitation.
