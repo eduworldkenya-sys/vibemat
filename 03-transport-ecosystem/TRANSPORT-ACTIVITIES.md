@@ -208,3 +208,16 @@ A Travel Log is not automatically a verified road report. A user may deliberatel
 A transport operator may publish a live road-facing camera stream only through an authorised vehicle/operator account and an explicit sharing session. The public stream is a separate activity with its own source, route context, start/stop state, and privacy-processing status. Camera presence alone does not grant permission to publish footage.
 
 Interior passenger cameras are not public stream sources by default. See the privacy and processing requirements in the Road Pulse and Live Mobility specification.
+
+
+## Multi-provider marketplace participation
+
+The VibeMat transport ecosystem includes independent businesses across ride-hailing, taxis, intercity buses, scheduled shuttles, matatus and SACCOs, boda bodas, tuk-tuks, car hire, rentals, tours, parcel delivery, courier, cargo, freight, lorry/truck operations, and other relevant mobility services.
+
+Examples such as Uber, Bolt, 2NK, and Mololine are provider-category examples only. They are not evidence of partnership, API access, live inventory, or booking permission. Every provider retains its own identity, operations, prices, fulfilment, customer terms, and business model.
+
+Participation can range from a discoverable profile to provider-published activity, enquiries, an external booking handoff, or an explicitly authorised API integration. VibeMat must label the actual integration level. A listing is not availability; an enquiry is not a booking; a published trip is not a confirmed seat.
+
+The social layer lets commuters and providers contribute journey stories, privacy-protected dashcam clips, Road Pulse observations, Travel Logs, route explainers, and service updates. The same activity records can support map discovery and feed discovery. Popularity is not verification.
+
+The current payment boundary remains unchanged: VibeMat does not collect, hold, escrow, settle, or distribute fares or provider payments. Users may continue to provider-authorised booking and payment channels. Any future payment custody requires a separate explicit product and legal decision.
