@@ -141,3 +141,42 @@ This is not yet a verified capability. It depends on obtaining sufficiently fres
 - Which insights should be public, personalised, or restricted?
 - What thresholds are required before publishing aggregated trends?
 - How should ranking be evaluated with real passenger behaviour before any numeric weights are fixed?
+
+## Two simultaneous modes: open discovery and relevant opportunities
+
+**Agreed product direction:** Ken's daytime dashboard should do both:
+1. Keep open discovery of the wider transport network available, even when Ken has not searched or expressed a specific need.
+2. Proactively surface transport activities, journeys, capacity declarations, route matches, and insights that may be relevant to Ken's known context or interests, even when he is not currently travelling.
+
+These are not competing feeds and neither should replace the other.
+
+### Open network discovery
+
+- Let Ken explore transport activity across the map and beyond his immediate neighbourhood.
+- Include different transport types and activity categories, not only the modes he usually uses.
+- Surface meaningful new activity and patterns without requiring a search.
+- Preserve user control: Ken can pan, zoom, change layers, search, and explore elsewhere.
+- Do not let personalisation hide the wider transport network.
+
+### Relevant opportunity discovery
+
+- Identify published journeys that overlap with routes or places Ken follows or has expressed interest in.
+- Surface declared passenger or cargo capacity where relevant and still valid.
+- Identify possible route, journey, or location matches.
+- Show future departures and planned journeys that may matter to Ken.
+- Surface useful transport changes or disruptions affecting saved routes or areas.
+- Explain why each item is being shown and identify its source, status, timestamp, and freshness.
+
+An opportunity is a potentially useful discovery, not a confirmed booking, guaranteed seat, guaranteed departure, or promise that an operator will accept a request.
+
+### How the two modes coexist during the day
+
+At 10 AM and 2 PM, the dashboard should not become a passive entertainment feed or a narrow commute-only screen. It should combine:
+- A personalised layer of potentially relevant transport opportunities and insights.
+- An open discovery layer showing wider transport activity and allowing exploration beyond Ken's usual routes.
+
+The balance can adapt to context and available evidence. Relevant opportunities may be prioritised, but open discovery must remain accessible and visible. If no credible relevant opportunity exists, do not manufacture one; let open discovery carry the experience.
+
+This dual-mode principle can also apply at other times of day. The emphasis changes with Ken's context, but both capabilities remain part of the same transport network.
+
+**Status:** Both open network discovery and proactive relevant-opportunity discovery are agreed product requirements. Exact screen layout, ranking weights, and distribution thresholds remain open.
