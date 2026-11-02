@@ -142,6 +142,6 @@ The system must distinguish:
 
 A missing GPS update is not, by itself, proof of parking. GPS jitter, poor reception, device power loss, and temporary network interruption must be handled without inventing a stationary state.
 
-The stationary threshold is unresolved. Options raised for discussion are 10, 20, or 30 minutes. The final default, any category-specific rules, and temporary-session duration remain open.
+**Agreed default threshold: 20 minutes.** After reliable stationary detection for 20 minutes, public exact-GPS visibility is suspended and the last precise coordinate is not shown publicly. The owner/authorised operator retains exact-location access in their authenticated account and may deliberately resume sharing. Category-specific rules and temporary-session duration remain open. This is a product rule, not an implemented GPS capability.
 
 This is a proposed privacy and activity-state rule, not an implemented GPS capability.
