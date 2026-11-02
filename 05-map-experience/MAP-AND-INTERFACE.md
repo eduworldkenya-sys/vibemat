@@ -2,118 +2,96 @@
 
 ## Primary interface decision
 
-The living interactive map is the main app canvas. It is not a small map card inside a conventional dashboard.
+**Agreed:** The living interactive map is the main app canvas. It is not a small map card inside a conventional dashboard.
+
+The map is the product's spatial interface. Intelligence and discovery operate through it and through supporting detail views.
 
 ## Map responsibilities
 
 The map should support:
 - Pan and zoom.
-- Place and route search.
+- Place, route, stage, and transport activity search.
 - Transport activity markers.
 - Stage and location markers.
 - Route and corridor exploration.
 - Map layer controls.
 - Locate-me control.
-- Zoom controls.
 - Tap-to-inspect activity details.
-- Floating discovery and intelligence cards.
-- Navigation to deeper discovery and insight views.
+- Compact floating discovery and intelligence cards.
+- Expanded detail panels and navigation to deeper discovery/insight views.
+- Open exploration beyond the user's current location and usual routes.
 
-## Marker meaning
+## What the map shows
 
-Markers must communicate what they represent. A marker might represent a stage, declared journey, reported vehicle, verified live position, route, or aggregated activity area.
+**Agreed:** Show eligible transport activity across the visible map, not only items personalised to Ken. Highlight relevant opportunities and insights without suppressing open network discovery.
 
-Do not use the same visual treatment for all of these if it would cause users to confuse their meaning.
+The map may represent:
+- Public mapped stages and places.
+- Published journeys and planned departures.
+- Credibly reported vehicle or transport activity.
+- Authorised live GPS positions.
+- Approximate activity areas.
+- Routes and corridors.
+- Aggregated historical patterns.
+- Relevant road or traffic reports where sourced.
+
+Not every category will always have data. Omit unsupported information rather than inventing it.
+
+## Marker meaning and evidence
+
+Markers must communicate what they represent. Distinguish stages, declared journeys, community/operator reports, verified presence, authorised live positions, parked/stationary states, stale or unknown states, and aggregated historical activity.
+
+Do not use one visual treatment for all marker types. Colour or icon alone must not be the only way to communicate status. Provide a clear legend and accessible labels.
+
+A route line must not imply a live vehicle journey unless fresh live-position evidence supports that claim.
 
 ## Floating information
 
 Small discovery cards may float over the map. They should be:
-- Dismissible.
-- Expandable.
-- Relevant to the visible map area or the user's discovery context.
+- Dismissible and expandable.
+- Relevant to the visible map area or discovery context.
+- Clear about why an item is highlighted.
 - Compact enough to preserve map visibility.
+- Free of unsupported claims and decorative noise.
 
-Detailed information belongs in an expandable panel or a dedicated screen, not in a wall of cards covering the map.
+Detailed information belongs in an expandable panel or dedicated screen, not in a wall of cards covering the map.
 
 ## Proposed bottom navigation
 
-**Proposed:** Map · Discover · Insights · Profile
+**Recommended default:** Map · Discover · Insights · Profile.
 
-Settings may live inside Profile. This navigation is a design proposal and should be confirmed before implementation.
+Settings can live inside Profile. This is a product recommendation, not a user-confirmed final navigation decision.
 
 ## Example interactions
 
-- Tap a lorry marker → inspect the relevant activity and its source/time.
-- Tap a stage marker → inspect stage activity and freshness.
+- Tap a lorry marker → inspect the relevant activity, location precision, source, and time.
+- Tap a stage marker → inspect stage identity, recent reports, declared departures, availability declarations, and freshness.
+- Tap a journey → inspect publisher, origin/destination, planned time, capacity if declared, status, and next action if enabled.
 - Tap a route → explore route information and appropriately labelled history.
 - Tap an operator → inspect the operator profile and published activity.
+- Tap a heatmap/aggregated area → inspect what period and evidence the pattern represents.
 
-## Design direction
+## Visual and interaction direction
 
-- Premium, clean mobile experience.
+- Premium, clean, mobile-first experience.
+- High contrast, readable typography, clear hierarchy, generous spacing, and obvious primary actions.
 - Map remains visually dominant.
-- Clear hierarchy and restrained colours.
-- Avoid excessive gradients, random colours, oversized cards, unnecessary emoji, and generic AI-dashboard styling.
-- Controls should be placed consistently and be easy to use on mobile.
+- Consistent visual language and restrained colours.
+- Fast, lightweight experience on ordinary mobile networks and lower-end devices.
+- Large, accessible touch targets.
+- Clear loading, empty, error, offline, and saved states.
+- Avoid excessive gradients, random colours, oversized cards, unnecessary emoji, cramped layouts, and generic AI-dashboard styling.
+- Never use visual polish to imply data confidence that does not exist.
 
-## Open decisions
+## Offline and low-data behaviour
 
-- Map provider and licensing.
-- Exact marker system and visual legend.
-- Bottom navigation confirmation.
-- Map layer categories.
-- Offline map and cached-data behaviour.
-- How to represent low-confidence or stale activity.
+Cached maps and activity may remain visible when available, with a prominent last-updated time. Cached information must never be labelled live/current. Do not imply a vehicle is still at its last known position. Actions requiring a network confirmation must be disabled or clearly qualified.
 
-## Map-first morning experience
+## Open design decisions
 
-The map remains the main canvas when Ken opens VibeMat at 5:00 AM. A compact morning summary may sit over the map, but it must not turn the screen into a dashboard or obscure the surrounding transport context.
-
-The map may show:
-- Nearby stages such as Eastmar, Allsops, and Drive-In.
-- Declared journeys and departure windows.
-- Transport activity with a clear status and source.
-- Reported disruptions or traffic conditions when supported.
-- Relevant route and corridor context.
-
-A stage marker should open a detail view that distinguishes stage identity, recent reports, verified presence, declared availability, and departures. A route line must not imply a live vehicle journey unless it is supported by live location data.
-
-The user should be able to dismiss or collapse the briefing and continue exploring the map. The interface should make stale or offline information visibly different from fresh information.
-
-
-## Ken's 5:00 AM map hierarchy
-
-### First screen
-
-The map is the first screen and remains visible. It should show the user's permitted location context, nearby stages, relevant roads, and clearly differentiated transport activity markers. A compact, dismissible morning briefing sits above the map; it must not replace the map with a dashboard.
-
-### Morning briefing priority
-
-1. Relevant declared journeys and departure windows.
-2. Explicitly declared passenger availability or capacity.
-3. Recent nearby stage activity.
-4. Sourced road disruptions or traffic context.
-5. Sourced weather context.
-6. Meaningful changes since the last visit, if history supports the comparison.
-
-Hide unavailable categories rather than inventing data or displaying misleading zeroes.
-
-### Tap behaviour
-
-**Stage marker:** open a stage detail panel with stage identity/location, activity time window, individual reports, declared departures, explicit availability, relevant road reports, and source/time/freshness labels. Include a clear “no recent reliable activity” state.
-
-**Journey or vehicle marker:** open an activity detail panel with publisher, origin/destination, declared route, planned time, vehicle type, capacity/availability if declared, status, source, last update, and expiry. Show contact/next action only if the publisher has enabled it.
-
-**Route marker/line:** open route information and appropriately labelled historical patterns. A line must not imply live movement without fresh live-position evidence.
-
-### Overlay versus detail
-
-Map overlays contain only the short decision-relevant summary, status, and freshness. Publisher details, multiple reports, comparisons, and history belong in the expanded panel or Discover/Insights.
-
-### No-data and offline
-
-Do not fabricate activity, counts, rankings, traffic, or weather. When no reliable live data exists, state that recent activity is unavailable while keeping the map usable. Cached data must display its last update and must never be called live/current.
-
-### Visual semantics
-
-Use distinct visual treatments and a visible legend for stages, declared journeys, user/operator reports, verified presence, live positions, and aggregated historical activity. Colour or icon alone must not be the only way to communicate status.
+- Map provider, licensing, and offline map rights.
+- Final marker shapes, iconography, and visual legend.
+- Final bottom navigation confirmation.
+- Exact map layer categories and controls.
+- Per-data-type freshness and expiry thresholds.
+- Detailed accessibility and low-data performance requirements.
