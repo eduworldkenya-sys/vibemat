@@ -125,3 +125,31 @@ The 5:00 AM experience is a product hypothesis until tested with real passengers
 
 ### Next task
 Specify the exact information hierarchy and interactions for Ken's morning map, then define the evidence/source requirements for every displayed status. Do not begin coding until these are agreed.
+
+
+## Morning map hierarchy — proposed specification
+
+The proposed first screen is map-first with a compact dismissible briefing. The information order is: relevant declared journeys/departure windows; explicit availability/capacity; recent nearby stage activity; sourced road/traffic context; sourced weather; and meaningful changes since last check.
+
+Tapping a stage opens its identity/location, activity time window, individual reports, declared departures, availability declarations, road context, and source/time/freshness. Tapping a journey opens its publisher, origin/destination, route, planned time, vehicle type, declared capacity, status, source, update time, and expiry.
+
+Map overlays remain short. Detailed reports, comparisons, publisher information, and history belong in expanded details or Discover/Insights. No-data states must be honest; offline/cached data must show its last update and must not be called live.
+
+### Decisions still open
+
+- Which map provider and marker visual system will be used?
+- What is the exact freshness/expiry threshold for each report type?
+- What minimum evidence makes a stage report eligible for an activity summary?
+- How should conflicting reports and confidence be represented?
+- What is the first-release source for traffic, road conditions, and weather?
+- Should Ken's morning briefing use saved commute patterns, an optional destination/time, or both?
+- Which actions are available from a journey detail, and what contact/privacy protections apply?
+
+### Constraints
+
+- A planned departure is not a guaranteed departure.
+- A report is not a verified presence.
+- A visible vehicle is not necessarily available.
+- A route line is not proof of live movement.
+- Historical and cached information must never be presented as current.
+- Do not fabricate data or imply that VibeMat dispatches transport.
