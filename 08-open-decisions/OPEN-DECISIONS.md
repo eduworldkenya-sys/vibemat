@@ -222,3 +222,35 @@ This is an agreed starting hypothesis. The specific operator, route, campaign fo
 ## Next blueprint activity: first release and pilot scope
 
 Define the smallest end-to-end VibeMat release that can test passenger usefulness, operator publishing value, trustworthy transport information, and the first operator-reach experiment without prematurely building every role or revenue stream.
+
+## Confirmed strategic direction: full TikTok-style model adapted to transport
+
+VibeMat will use the TikTok model as a **full social discovery and commercial ecosystem**, adapted to transport. This confirms more than a feed interface: creators/publishers, open recommendations, Following, audience growth, aggregate analytics, sponsored distribution, business campaigns, and potential creator earning opportunities are part of the product direction.
+
+Transport-native translation:
+- Transport activities, updates, route explainers, stage reports, and authorised live updates are the content.
+- Kamagers/touts, drivers, conductors, stage contributors, operators, and route MCs can be publishers/creators within role authority and safety controls.
+- A For You-style feed provides open discovery; a Following feed personalises updates from selected sources and transport objects.
+- The map and feeds use the same underlying activity and evidence records.
+- Businesses/operators may sponsor clearly labelled content; future creator earning may arise from operator/business-funded campaigns.
+- Attention, Intent, Outcome, and Trust evidence remain separate. Popularity is not truth.
+
+A moving vehicle or route can provide context for a relevant advert, but it does not prove that passengers onboard are VibeMat users or saw the advert. VibeMat must report measured audience exposure honestly and must not invent onboard reach.
+
+### Confirmed guardrails
+- Paid placements are clearly labelled and separated from factual verification and organic trust.
+- Payment cannot buy verification, false availability, false movement, or favourable factual status.
+- Essential safety/disruption information is not displaced by ads.
+- No addictive engagement mechanics or incentives for sensationalism/misinformation.
+- No fare custody or creator payout wallet in the initial model; direct campaign compensation, if any, is between the operator/business and creator.
+
+### Still open for detailed design and validation
+- Exact For You/Following/map screen relationship and navigation.
+- Creator eligibility, identity/authority checks, and publishing permissions.
+- Media formats and moderation/safety rules.
+- Recommendation signals, ranking evaluation, and frequency controls.
+- Sponsored formats, targeting permissions, ad inventory, pricing, disclosure, and measurement.
+- Creator campaign contracts, attribution, compensation rules, and whether VibeMat charges a campaign service fee.
+- How to measure actual enquiries and outcomes without overstating views as passengers or enquiries as completed trips.
+
+The first physical-stage pilot remains focused on online kamagera/touting. Do not expand that pilot into a full creator monetisation or advertising rollout before the core stage workflow is proven.
