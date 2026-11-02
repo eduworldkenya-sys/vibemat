@@ -192,3 +192,21 @@ Recommended user actions:
 - **Share:** pass a transport item to others with its source and timestamp intact.
 
 Views can support aggregate reach and publisher analytics, but are not evidence of truth. Generic likes should not determine trust or ranking. Comments and direct messages are not assumed in the first design; they need separate moderation and privacy decisions.
+
+## Transport publishing as a creator and discovery network
+
+VibeMat's confirmed social product direction uses a TikTok-style creator and discovery model adapted to transport. Transport activity and useful transport information—not generic entertainment—are the content.
+
+Eligible publishers may include kamagers/touts, stage contributors, drivers, conductors, SACCOs/operators, route MCs, and other authorised transport contributors. Depending on their role and authority, they may publish:
+- Vehicle/departure and seat/capacity updates.
+- Stage and route conditions.
+- Road disruptions and corrections.
+- Route explainers and practical transport stories.
+- Operator-authorised live or recorded updates.
+- Journey, parcel, cargo, or service opportunities.
+
+Each post/activity must retain its source, publisher authority where relevant, timestamp, status, location/route context, evidence type, expiry, and visibility permissions. Media does not make a claim verified. A creator's reach does not establish accuracy.
+
+The same underlying activity may appear on the map, in open discovery, and in a Following feed. Following personalises the feed but does not close off wider discovery.
+
+A moving vehicle or its route can be useful context for a sponsored campaign, but VibeMat must not assume that passengers inside the vehicle are VibeMat viewers. Any claim about onboard audience or exposure requires a separate consented, reliable measurement method.
