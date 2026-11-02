@@ -240,3 +240,14 @@ Ken can choose a **normal route** to see a route through known roads, walking li
 ## Road Pulse and Travel Logs
 
 While travelling, Ken may submit a quick road observation or attach photo/video/voice evidence. He may separately save a Travel Log documenting a completed or ongoing journey. Travel Logs are private by default; publishing is deliberate. A log does not automatically become a verified road report.
+
+## Wider audience thesis: everyone moves
+
+Ken is the first passenger persona, not the definition of the entire VibeMat audience. The broader network serves people in many movement contexts: commuters, workers, students, traders, families, visitors, tourists, drivers, passengers, and people arranging the movement of goods.
+
+The experience may help people discover useful movement-related information and relevant businesses: fuel, vehicle services, spare parts, food, accommodation, destinations, retail, logistics, and other local or national services. Relevance should be based on the user's chosen context, area, route, interests, and available evidence—not an assumption that every user is commuting.
+
+VibeMat is a discovery and media network, not a booking platform or transport operator. A discovery may lead a person to contact or transact directly with an independent provider or an external service. VibeMat must not imply that it guarantees availability, performs the service, or owns the resulting transaction.
+
+The map and discovery surfaces should remain useful for both immediate practical information and wider exploration. The audience is people in motion and people interested in movement—not only passengers looking for a ride.
+
