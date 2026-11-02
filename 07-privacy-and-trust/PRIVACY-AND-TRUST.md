@@ -57,3 +57,16 @@ Before launch, the product needs policies and workflows for:
 - Access to sensitive location and activity history.
 
 These are required design topics; no completed policy is claimed here.
+
+## Location and morning context safeguards
+
+A morning experience may use a passenger's current or selected area to prioritise nearby information, but it must not reveal their home location to operators or other users by default.
+
+The product should distinguish:
+- Private user location used for personal relevance.
+- Public mapped stage locations.
+- Approximate activity areas.
+- Exact vehicle location shared by an operator under an explicit setting.
+- Verified live positions supplied by an authorised source.
+
+Cached/offline information must show when it was last updated. A stale report must not be presented as current stage readiness, traffic, weather, or vehicle availability.
