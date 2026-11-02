@@ -251,3 +251,17 @@ Sponsored transport or business content may be inserted into relevant discovery 
 A moving vehicle can define route/area context for an advert, but it does not establish that passengers onboard are VibeMat users or that they saw the advert. Report only measured VibeMat audience exposure; never invent onboard reach.
 
 Exact recommendation formula, ad inventory, frequency caps, targeting permissions, creator eligibility, and measurement thresholds remain open for later design and validation.
+
+## Confirmed strategic context: discovery for a world in motion
+
+VibeMat's discovery network is intended for everyone who moves or has an interest in movement—not only people actively searching for a ride. People commute, study, work, trade, travel, deliver goods, visit places, and explore. Their contexts create changing information needs and opportunities for relevant businesses to reach audiences.
+
+Discovery may therefore include useful transport information, journeys and stage activity, destinations, local services, and relevant business content or advertising. Potential advertiser categories include fuel, spare parts, garages, tyres, insurance, food, accommodation, retail, logistics, and other services relevant to a person's movement context.
+
+Commercial relevance must not override evidence eligibility, privacy, safety, or user control. Paid content must be clearly labelled and distinguished from organic information. Payment cannot buy verification, factual status, or a false claim of availability. Ranking and measurement must not imply that all passengers in a vehicle are VibeMat users or have seen an advert.
+
+## External distribution versus VibeMat discovery
+
+TikTok, Facebook, YouTube, Instagram, and similar services may distribute VibeMat marketing and creator content to attract people into the network. They are external acquisition channels, not the destination VibeMat must compete against or depend on. VibeMat's own map, feed, following relationships, publisher network, and audience analytics remain its independent discovery infrastructure.
+
+Discovery should serve both practical intent and open exploration. It must not assume every session is a booking search or that all relevance is defined by a commute.
