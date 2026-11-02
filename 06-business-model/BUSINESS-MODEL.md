@@ -324,3 +324,19 @@ Build VibeMat to be valuable and sustainable as an independent company. Do not b
 6. Add more revenue streams only when value, cost to serve, trust and compliance are understood.
 
 Do not assume advertising, subscriptions, creator commissions or data products will work until tested with actual customers. No prices, revenue targets or acquisition assumptions are approved by this document.
+
+
+## Confirmed first monetisation experiment
+
+The first commercial experiment will target **SACCOs and transport operators**. The initial value proposition is **helping an operator reach more passengers**.
+
+The first test should be deliberately narrow:
+- One participating operator.
+- One defined route or corridor.
+- One measurable campaign.
+- Basic passenger map and transport discovery remain free.
+- VibeMat does not collect fares, hold passenger funds, or settle transport payments.
+
+The experiment must measure genuine reach and downstream value separately. Impressions/views are attention, not passengers. Enquiries are intent, not bookings. Boarding or completed journeys count as outcomes only when a credible measurement method exists.
+
+This is the agreed starting hypothesis, not proof of willingness to pay. Pricing, campaign format, attribution rules, success thresholds, and the exact operator/route remain to be validated before launch.
