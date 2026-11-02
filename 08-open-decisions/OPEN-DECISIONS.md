@@ -151,3 +151,59 @@ The recommended first account model is:
 - Exact map/feed navigation and screen relationship.
 - Whether a dedicated Discover feed is the first feed surface or map-integrated panels are sufficient for the pilot.
 - Final map layers, marker legend, and per-data-type freshness thresholds.
+
+
+## Business model and long-term relevance — recommended blueprint
+
+### User groups and role-aware dashboards
+
+VibeMat should support passengers, drivers, conductors, touts/stage contributors, transport creators/route MCs, SACCOs and fleet operators, parcel/cargo users, local merchants, and public/research partners. One person may participate in multiple roles; permissions should follow the activity and authority, not create disconnected apps.
+
+The dashboard should be role-aware while sharing the same transport network:
+- Passenger: map, departures, route/stage changes, followed sources, saved items and useful opportunities.
+- Operator/SACCO: published activity, expiry/update tasks, aggregate reach, attributed enquiries and business tools.
+- Driver/conductor/stage contributor: own updates, corrections, confirmation/dispute feedback, contribution history and assigned paid work.
+- Creator/route MC: audience/reach analytics, published items, trust feedback, attributed enquiries/outcomes and eligible campaigns.
+- Merchant: labelled campaign reach and privacy-safe area insights.
+- Institutional/research partner: aggregate trends, coverage, confidence and methodology.
+
+### Attention, intent, outcome and trust
+
+Preserve separate measurement dimensions:
+- Attention: impressions/reach, views and follows.
+- Intent: saves/pins, enquiries, contact requests and deliberate interest.
+- Outcome: credibly verified boarding, completed delivery or fulfilled service.
+- Trust evidence: independent confirmations, disputes, corrections, source history and verification.
+
+Do not use views, follows, likes or shares as proof of truth. A save is not a booking; an enquiry is not a completed journey. Generic likes are not required for the first release.
+
+### Recommended revenue candidates (not approved prices)
+
+- Operator/SACCO subscriptions for recurring business tools and workflows.
+- Clearly labelled sponsored discovery, never buying verification or factual status.
+- Qualified enquiry/campaign services with transparent attribution and outcome definitions.
+- Operator-funded creator/route-MC campaigns, with the operator paying the creator directly.
+- Local business advertising with privacy and relevance controls.
+- Privacy-safe aggregate transport intelligence for eligible business or institutional customers.
+
+The passenger's basic map, public discovery, essential safety/disruption information, source/freshness details, following, saving and reporting should remain free initially. VibeMat does not collect fares, hold funds, operate wallets or settle creator/operator payments. It may record non-financial attribution and charge for business services, subject to legal review.
+
+### Retention and long-term relevance
+
+Return visits should be driven by changing transport information, followed-source updates, route/stage changes, relevant journeys and capacity, creator explainers, new travel or cargo needs, and feedback on a user's own contributions. Useful information, opportunity, earning and enjoyable local storytelling can coexist. Entertainment must not incentivise misinformation, unsafe filming, artificial urgency or compulsive checking.
+
+### Strategic acquisition hypothesis
+
+Copying TikTok's feed is not an acquisition thesis. VibeMat's potential strategic value would come from a permissioned transport activity graph, trusted local contributors and operators, useful creator distribution, measurable demand/outcomes, repeat usage, network coverage and responsible data governance. A partnership, integration, investment, licensing arrangement or acquisition by TikTok or another company is possible in principle but not assumed or guaranteed. VibeMat should be built as a sustainable independent business first.
+
+### Unresolved business decisions
+
+- First paying customer segment and the first painful problem they will pay to solve.
+- First monetisation experiment and measurable success criteria.
+- What counts as a qualified enquiry and a verified outcome.
+- Whether creator/MC campaigns belong in the pilot or a later phase.
+- Operator subscription packaging and pricing.
+- Sponsored placement rules, inventory limits and disclosure design.
+- Whether institutional aggregate insights have a lawful, sufficiently accurate market.
+- First launch participant mix and role permissions.
+- How dashboard navigation and role switching should work.
