@@ -61,11 +61,9 @@ We are writing and reviewing the product blueprint before building. No HTML prot
 
 ## Core product test: Everyone Moves
 
-Every major product decision must be tested against the needs and authority of the relevant mobility participants—not only a passenger. At 5:00 AM, before deciding when or how to leave, he can use it to understand nearby transport activity, compare relevant options, inspect declared departures, see road conditions where sourced, and discover useful activity along or beyond his usual routes.
+Every major product decision must be tested against the needs, authority, and real tasks of the relevant mobility participants—not only a passenger. A commuter may discover a journey; a driver may publish authorised activity; an operator may manage services; a logistics business may publish capacity; and a community contributor may share a road observation. These are role-specific experiences over one shared network.
 
-The product must provide decision-support that a walk to Eastmar Stage alone cannot provide. It must not pretend to know live vehicle positions, stage readiness, fares, traffic, or weather without a current and identifiable source.
-
-See [Ken's 5:00 AM decision experience](02-ken-passenger-experience/KEN-5AM-DECISION-EXPERIENCE.md).
+The product must preserve each participant's permissions, responsibilities, privacy, and independent business model. Ken's 5:00 AM journey remains one passenger use case within this wider system, not the product's centre. See [Ken's 5:00 AM decision experience](02-ken-passenger-experience/KEN-5AM-DECISION-EXPERIENCE.md).
 
 ## Product identity: the social mobility network
 
