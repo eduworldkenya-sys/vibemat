@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "VibeMat",
+    "slug": "vibemat",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {"backgroundColor": "#F6F4EF"},
+    "ios": {"supportsTablet": true},
+    "android": {"adaptiveIcon": {"backgroundColor": "#121923"}, "edgeToEdgeEnabled": true},
+    "plugins": ["expo-image-picker"]
+  }
+}
