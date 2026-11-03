@@ -5,9 +5,27 @@
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "splash": {"backgroundColor": "#F6F4EF"},
-    "ios": {"supportsTablet": true},
-    "android": {"adaptiveIcon": {"backgroundColor": "#121923"}, "edgeToEdgeEnabled": true},
-    "plugins": ["expo-image-picker"]
+    "splash": {
+      "backgroundColor": "#F6F4EF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "VibeMat uses your photo library so you can choose photos and videos to share."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#121923"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "READ_MEDIA_IMAGES",
+        "READ_MEDIA_VIDEO"
+      ]
+    },
+    "plugins": [
+      "expo-image-picker"
+    ]
   }
 }
