@@ -2,9 +2,11 @@
 
 ## Agreed architecture: three connected foundations
 
+The architecture serves **Everyone Moves**. Participants share one mobility network but do not all need the same home screen or workflow. The living map is a major shared spatial interface; role-aware discovery and operational surfaces may be more appropriate for particular tasks.
+
 ### 1. Living interactive map
 
-The map is the actual app canvas and primary interface—not a small card embedded in a dashboard.
+The map is a core spatial interface—not the whole product identity and not a mandatory starting screen for every role.
 
 It allows a person to:
 - Pan and zoom across places.
@@ -121,6 +123,64 @@ Every item should identify its publisher/source, publication or observation time
 
 **Recommended interaction model:** follow, save/pin, share, and structured feedback (confirm, dispute, report incorrect/outdated/unsafe). Views may be measured as aggregate reach/analytics, not treated as trust. Avoid generic like-count competition as a primary transport signal. Free-form comments and direct messaging are not assumed; they require separate abuse, privacy, and moderation decisions.
 
+
+## Road Pulse, routing, live media, and travel history
+
+The product direction now includes a community-powered road intelligence capability called **Road Pulse**, normal and predictive journey routing, operator-authorised privacy-processed live vehicle streams, and user-controlled Travel Logs. The complete behaviour and safeguards are specified in [Road Pulse, Routing, Live Mobility, and Travel Logs](../09-road-pulse-live-mobility/ROAD-PULSE-LIVE-MOBILITY.md).
+
+These capabilities extend the existing three-part architecture; they do not create separate apps or replace the living map.
+
+- Road observations are evidence records with road segment, direction, source, timestamp, freshness, and verification state.
+- Normal routing calculates a route from the mapped network and known transport connections. Predictive routing adds time-dependent estimates and confidence without presenting estimates as facts.
+- Live video is a separately authorised media source. Only privacy-processed output may be distributed.
+- Travel Logs are user-controlled journey records and remain distinct from live road reports.
+- Offline data is cached and labelled with its last-updated time; offline state must never masquerade as live intelligence.
+
+
+## Social mobility marketplace and consolidated transport economy
+
+VibeMat's product identity is a **social mobility network and multi-provider marketplace**, not a map replacement and not a transport operator. It brings independent transport businesses, services, users, and mobility experiences into one discoverable ecosystem.
+
+The marketplace is intended to accommodate multiple provider categories and their distinct business models, including:
+- Ride-hailing and taxis (for example, Uber, Bolt, and independent taxi fleets).
+- Intercity and scheduled bus operators (for example, 2NK, Mololine, and other coach/shuttle businesses).
+- Matatus, SACCOs, city buses, and other public or informal transport.
+- Boda bodas, motorcycle taxis, tuk-tuks, and local mobility providers.
+- Car hire, vehicle rental, tours, travel and road-trip services.
+- Parcel, courier, delivery, cargo, lorry, truck, and logistics businesses.
+- Other mobility-adjacent services that genuinely serve transport needs.
+
+These examples describe provider categories, not existing partnerships, integrations, availability, or endorsements. Each business remains independently owned and responsible for its own operations, prices, fulfilment, licences, customer service, and contractual terms.
+
+### Consolidation means one ecosystem, not one operator
+
+VibeMat provides a common layer for discovery, provider presence, social distribution, enquiries and authorised connections, and transparent commercial attribution. Actual service delivery and each provider's business model remain with that provider unless a separately approved integration explicitly changes that boundary.
+
+A provider may participate through a basic public listing, a self-managed business profile, a structured activity feed, a booking/ticketing integration, or another authorised connection. Integration depth must be explicit per provider. A listing or link must never be presented as live inventory, confirmed availability, a booking, or a completed transaction.
+
+### Social mobility experience
+
+The social layer makes mobility experiences discoverable and shareable: road-facing dashcam clips, journey stories, route explainers, stage updates, travel logs, service announcements, and useful community observations. Content must be connected to relevant transport context where possible, with clear source, time, status, and freshness. Entertainment or reach must never override safety, truth, or privacy.
+
+The user is the source of community life; operators and businesses are sources of services; VibeMat supplies the shared discovery and connection environment. Users control their own travel logs and sharing choices. Providers control their own business activity and authorised integrations.
+
+### Commercial boundary and current decision
+
+The existing non-negotiable boundary remains in force: VibeMat does not collect, hold, escrow, settle, or distribute passenger fares or provider payments. It may direct a user to a provider's authorised booking/payment channel and may later offer separately scoped commercial tools, subscriptions, advertising, qualified-enquiry services, or attribution products. Any change to payment custody requires a new explicit product and legal decision; it is not implied by consolidating business models.
+
+The marketplace is a product direction, not a claim that every provider has joined or that every service is bookable. Provider onboarding, partnership permissions, API access, booking rights, commercial terms, regulatory obligations, and transaction attribution must be established individually.
+
+
+## Everyone Moves: shared network, role-aware experiences
+
+VibeMat is not organised around a single passenger persona. It serves the full mobility ecosystem through role-aware experiences over shared data, discovery, trust, and connection foundations.
+
+Participant groups include people travelling; drivers, riders, and conductors; transport operators, SACCOs, and fleet owners; taxi, bus, boda, and rental businesses; delivery, courier, cargo, and logistics providers; travel and experience businesses; and community contributors.
+
+A person may hold multiple roles. Identity and permissions must support multiple authorised roles without creating disconnected products. Each role sees relevant actions and information according to its authority. A passenger's view does not grant operator control; a provider profile does not prove service availability; and a contributor role does not grant access to private movement data.
+
+The product should be evaluated across participant value, network effects, data quality, safety, and commercial sustainability. Ken's passenger journey is one test case, not the product's organising centre.
+
 ## Confirmed product direction: TikTok-style social discovery and creator ecosystem
 
 VibeMat will use the **TikTok model as a product and commercial model**, adapted to transport. This is broader than adding a scrolling feed or placing adverts beside moving vehicles. It combines creator/contributor publishing, open recommendation and discovery, following, audience growth, aggregate analytics, business advertising, sponsored distribution, campaigns, and potential creator monetisation.
@@ -142,6 +202,7 @@ A moving vehicle may provide transport context for a route- or area-relevant cam
 
 ### Product boundary
 Use the mechanics and staged commercial ecosystem of TikTok, not entertainment-first incentives. Transport usefulness, accuracy, privacy, and user control remain foundational. Do not copy addictive engagement mechanics, reward sensationalism, or let ads obscure transport activity.
+
 
 ## Confirmed strategic thesis: the media network for a world in motion
 
@@ -172,3 +233,4 @@ Do not judge the media business only by bookings, vehicles listed, or trips comp
 
 ### Pilot boundary
 The first real-world pilot remains narrow: online kamagera/touting at one physical Mainstage. It tests whether stage-based transport information and touting can gain useful online discovery and connections. It is a seed for participation and audience—not a launch of a booking platform, a broad ad network, or full creator monetisation.
+

@@ -165,3 +165,30 @@ Following, saving, viewing, confirming, disputing, and sharing have different me
 - Confirmations and disputes should be attached to the relevant information item, not published as a public list of identifiable passenger witnesses.
 - Do not equate follower count, views, shares, or reactions with source reliability or post truth.
 - Comments and direct messages are not assumed; any later introduction requires abuse, harassment, privacy, and moderation controls.
+
+
+## Road Pulse and user-submitted media
+
+A road report may include text, photographs, video, or voice. Collect only what is needed to describe the road condition. Do not expose a reporter's identity or precise personal location to the public by default. Strip unnecessary metadata from published media, apply access controls to original evidence, and define retention/deletion rules before launch.
+
+A five-minute freshness window applies to a road observation, not automatically to the underlying incident or evidence file. Expired observations become stale; they do not prove that a hazard or accident has ended.
+
+## Live vehicle camera privacy
+
+Live vehicle-camera publishing requires explicit operator authorisation, an active sharing session, clear notices and a lawful processing basis. A front-facing road camera is the preferred public view. Interior passenger footage is private and must not be publicly streamed by default.
+
+Before any stream is distributed, a privacy-processing pipeline must:
+- Detect and obscure identifiable faces, including bystanders and children.
+- Obscure vehicle registration plates.
+- Mask sensitive screens, documents, and other personal information where visible.
+- Disable audio by default; any audio feature requires separate assessment and controls.
+- Process frames before they reach viewers, caches, thumbnails, recordings, or downstream detection systems that could expose raw footage.
+- Fail closed: if privacy processing is unavailable, delayed beyond the safe threshold, or cannot meet its quality checks, pause publication rather than fall back to unprocessed video.
+
+Privacy filters reduce exposure but do not replace lawful basis, transparency, purpose limitation, data minimisation, security, retention controls, operator authority, or applicable Kenyan data-protection review. Do not claim that automated blurring is perfect. Provide operator pause/stop controls and an incident response path.
+
+## Travel Log privacy
+
+Travel Logs are private by default. Users explicitly choose whether to share an individual log with a limited community or publicly. Do not publish exact home addresses, sensitive destinations, continuous live whereabouts, or full movement history by default. Offer origin/destination privacy controls, approximate-location options, deletion controls, and a clear distinction between a saved private log and a published journey story.
+
+Assisted journey capture must be opt-in, explain what location data is collected, allow pause/stop, and avoid silently tracking a user. A journey log must never be used as a proxy for a vehicle's authorised GPS position.

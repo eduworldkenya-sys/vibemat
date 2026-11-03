@@ -230,6 +230,17 @@ Never expose or infer individual identity, coordinates, device IDs, arrival time
 
 The minimum threshold, time window, estimation method, and retention policy remain open pending privacy review. This capability is a design candidate, not an implemented feature.
 
+
+## Road Pulse evidence and predictive routing
+
+Road Pulse contributes time-bounded, direction-aware observations to transport intelligence. The engine must cluster correlated reports (for example, several passengers on the same bus) and distinguish them from independent observations made by another vehicle travelling in the opposite direction. Correlated reports may add witness detail, but must not be counted as fully independent sources.
+
+The five-minute rule is an observation-freshness window, not an automatic incident-resolution timer. When the last fresh observation expires, mark the road state stale/unconfirmed unless new evidence arrives. Never infer that an accident has cleared solely because five minutes passed. A smooth-flow report does not cancel an accident report unless it is relevant to the same segment/direction and the incident's status is independently reassessed.
+
+Normal routing uses the known network. Predictive routing estimates likely journey conditions using appropriately sourced live reports, time-dependent patterns, and available transport declarations. Prediction outputs must include uncertainty, source/freshness context, and an honest unavailable state when evidence is insufficient.
+
+Video, photos, voice, and text can support evidence assessment, but media duplication is not independent corroboration. Machine-detected events are candidate observations until validated by the applicable evidence policy.
+
 ## Confirmed direction: TikTok-style open discovery, following, and recommendations
 
 VibeMat will use a TikTok-style discovery model adapted to transport. The product direction includes both an open recommendation feed and a Following feed, alongside the living map.
@@ -252,6 +263,7 @@ A moving vehicle can define route/area context for an advert, but it does not es
 
 Exact recommendation formula, ad inventory, frequency caps, targeting permissions, creator eligibility, and measurement thresholds remain open for later design and validation.
 
+
 ## Confirmed strategic context: discovery for a world in motion
 
 VibeMat's discovery network is intended for everyone who moves or has an interest in movement—not only people actively searching for a ride. People commute, study, work, trade, travel, deliver goods, visit places, and explore. Their contexts create changing information needs and opportunities for relevant businesses to reach audiences.
@@ -260,8 +272,10 @@ Discovery may therefore include useful transport information, journeys and stage
 
 Commercial relevance must not override evidence eligibility, privacy, safety, or user control. Paid content must be clearly labelled and distinguished from organic information. Payment cannot buy verification, factual status, or a false claim of availability. Ranking and measurement must not imply that all passengers in a vehicle are VibeMat users or have seen an advert.
 
+
 ## External distribution versus VibeMat discovery
 
 TikTok, Facebook, YouTube, Instagram, and similar services may distribute VibeMat marketing and creator content to attract people into the network. They are external acquisition channels, not the destination VibeMat must compete against or depend on. VibeMat's own map, feed, following relationships, publisher network, and audience analytics remain its independent discovery infrastructure.
 
 Discovery should serve both practical intent and open exploration. It must not assume every session is a booking search or that all relevance is defined by a commute.
+

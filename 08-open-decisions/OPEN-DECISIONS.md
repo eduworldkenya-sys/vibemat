@@ -4,10 +4,12 @@ This document is the product decision register. It distinguishes user-confirmed 
 
 ## Confirmed product decisions
 
+- Working brand direction: **VibeMat — As We Move.** Product philosophy: **Everyone Moves.** The tagline is not yet legally or internationally cleared.
+
 - VibeMat is a transport discovery and intelligence network.
 - The architecture is hybrid: a living interactive map, a transport intelligence/discovery layer, and an underlying data engine.
 - The map is the main app canvas.
-- The first designed customer is Ken as a passenger.
+- VibeMat is organised around **Everyone Moves**: role-specific experiences share one underlying mobility network; Ken is a passenger use case, not the organising persona.
 - The transport ecosystem is one connected network, not separate apps for each participant.
 - Dynamic transport activities and journeys are central to the product.
 - Visibility, availability, commercial intent, planned journey, live movement, and historical activity are distinct concepts.
@@ -223,6 +225,46 @@ This is an agreed starting hypothesis. The specific operator, route, campaign fo
 
 Define the smallest end-to-end VibeMat release that can test passenger usefulness, operator publishing value, trustworthy transport information, and the first operator-reach experiment without prematurely building every role or revenue stream.
 
+
+## Road Pulse, live mobility, and Travel Logs — new product direction
+
+The following capabilities are now part of the agreed product direction. Their detailed implementation and policy parameters remain open; this documentation does not authorise application coding or deployment.
+
+### Agreed product behaviour
+
+- The map is the default full-screen experience. An upward swipe expands discovery to full screen; a downward swipe returns to the map.
+- The map represents vehicles (bus, lorry/truck, motorbike/boda boda), places/infrastructure (stages and pavilions), pedestrian movement, and commuter journeys as distinct concepts/layers.
+- VibeMat supports normal route calculation and predictive, time-aware route estimates.
+- Road Pulse accepts structured reports for smooth flow, congestion, accidents/incidents, hazards, obstructions, roadworks, and cleared/resolved conditions.
+- Road observations have a five-minute freshness window. Expiry makes an observation stale; it does not automatically resolve an incident.
+- Reports may carry text, photo, video, or voice evidence. Correlated witnesses from the same vehicle must be distinguished from independent vehicles/sources.
+- Travel Logs let users record and optionally share journeys, including route, stops, mode, notes, and media. They are private by default and distinct from Road Pulse reports.
+- Authorised transport operators may opt into live road-facing vehicle-camera streams, provided privacy processing happens before publication. Interior passenger cameras are not public by default.
+
+### Open implementation and policy decisions
+
+- Map provider, offline map rights, route graph quality, walking and public-transport routing data, and supported transfer modelling.
+- Prediction methodology, training/validation data, confidence calibration, arrival-time ranges, and minimum evidence thresholds.
+- Road segment matching, direction inference, report deduplication, same-vehicle correlation, independent-source weighting, dispute handling, and incident-state transitions.
+- Exact five-minute freshness semantics under poor connectivity and whether event-specific observation windows need separate configuration.
+- Media size/duration limits, supported formats, storage, bandwidth adaptation, moderation, evidence retention, deletion, and abuse handling.
+- Camera hardware compatibility, operator/SACCO authorisation, notices, lawful basis, stream access, latency, processing location, fail-closed behaviour, and recording policy.
+- Face/plate/sensitive-information detection quality, missed-detection handling, privacy QA, and incident response. No automated privacy filter is assumed perfect.
+- Travel Log assisted-capture consent, battery/data usage, manual correction, visibility controls, home/destination protection, retention, export, and deletion.
+- Offline report queueing, duplicate prevention, upload conflict resolution, and explicit separation of cached from live data.
+
+These decisions require product, technical, safety, and legal review before implementation or public launch.
+
+
+## Brand and naming clearance
+
+- Working public brand direction is **VibeMat — As We Move.**
+- **Everyone Moves** is the product philosophy, not a separate product name.
+- Preliminary web research surfaced unrelated businesses using VibeMat or a similar name. This does not establish a legal conflict, nor does it establish global availability.
+- Before significant brand investment or international launch, complete documented searches of Kenya's company and trademark registers, WIPO's Global Brand Database, relevant national trademark registers in target markets, and relevant goods/services classes covering software, transport, logistics, marketplace and related services.
+- Check domains and social handles separately; domain availability does not establish trademark rights.
+- Until clearance is complete, describe the mark as a working brand direction. Do not claim it is globally unique, registered, or legally available.
+
 ## Confirmed strategic direction: full TikTok-style model adapted to transport
 
 VibeMat will use the TikTok model as a **full social discovery and commercial ecosystem**, adapted to transport. This confirms more than a feed interface: creators/publishers, open recommendations, Following, audience growth, aggregate analytics, sponsored distribution, business campaigns, and potential creator earning opportunities are part of the product direction.
@@ -255,6 +297,7 @@ A moving vehicle or route can provide context for a relevant advert, but it does
 
 The first physical-stage pilot remains focused on online kamagera/touting. Do not expand that pilot into a full creator monetisation or advertising rollout before the core stage workflow is proven.
 
+
 ## Confirmed strategic direction: the media network for a world in motion
 
 - Central positioning: **VibeMat is the media network for a world in motion.**
@@ -269,6 +312,7 @@ The first physical-stage pilot remains focused on online kamagera/touting. Do no
 - The map and transport data/intelligence remain useful product foundations, but they do not define VibeMat as a booking or transport-operating business.
 - The first physical pilot remains online kamagera/touting at one Mainstage. It is a narrow participation/discovery test, not a broad booking launch or full advertising rollout.
 
+
 ## Open questions for validating the media business
 
 - Which audience segment should be acquired first beyond the Mainstage pilot, and what recurring value brings them back?
@@ -281,3 +325,4 @@ The first physical-stage pilot remains focused on online kamagera/touting. Do no
 - What is the path from the Mainstage kamagera pilot to a broader movement media audience without prematurely expanding scope?
 
 These questions do not reopen the confirmed thesis. They are validation and execution decisions.
+
