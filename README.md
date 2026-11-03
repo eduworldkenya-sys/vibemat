@@ -9,17 +9,18 @@ VibeMat connects people, creators, commuters, vehicles, routes, stages, places, 
 
 ## Project status
 
-**Stage:** Three-day build sprint authorised  
+**Stage:** Day 1 mobile frontend implementation in progress  
 **Delivery target:** Day 1 frontend (2026-11-03), Day 2 backend (2026-11-04), Day 3 integration, verification, and pilot finish (2026-11-05).  
 **Source of truth:** This repository.  
 **Current social specification:** [Social Network Product Specification v0.3](11-social-network/SOCIAL-NETWORK-PRODUCT-SPECIFICATION.md)  
-**Build plan:** [VibeMat Three-Day Build Sprint](12-build-plan/THREE-DAY-BUILD-PLAN.md)
+**Build plan:** [VibeMat Three-Day Build Sprint](12-build-plan/THREE-DAY-BUILD-PLAN.md)  
+**Mobile frontend:** [Expo app entry](App.tsx) · [Main mobile experience](src/Main.tsx) · [Frontend setup](frontend/README.md)
 
 The three-day target is a working pilot build, not a claim of global-scale readiness or production certification. Features count as complete only after their real end-to-end journeys work against persisted backend data and appropriate permissions.
 
 VibeMat is one mobile-first social network—not a collection of separate apps for commuters, drivers, matatus, buses, or businesses. Anyone can join and participate, subject to platform rules. One account can support optional additional profiles and pages.
 
-## Product thesis
+## Current implementation status\n\nThe mobile frontend scaffold and initial screen implementation are being developed on `feat/mobile-frontend-day1`. Current UI surfaces include Home/feed, Pulse, Explore/map preview, Create/media picker, Communities, Profile, and Inbox. Map tiles, real video playback, account data, publishing, messaging, live incidents, and server-backed follows are not yet integrated. Demo content is explicitly illustrative. Do not treat this branch as a completed or tested frontend until the app has been installed, typechecked, launched, and exercised on target devices.\n\n## Product thesis
 
 VibeMat is social media for transport. People come to watch, publish, follow, discuss, share, and discover the people, stories, vehicles, routes, places, communities, and activity of a world in motion.
 
