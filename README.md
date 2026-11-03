@@ -14,6 +14,7 @@ VibeMat connects people, creators, commuters, vehicles, routes, stages, places, 
 **Source of truth:** This repository.  
 **Current social specification:** [Social Network Product Specification v0.3](11-social-network/SOCIAL-NETWORK-PRODUCT-SPECIFICATION.md)  
 **Build plan:** [VibeMat Three-Day Build Sprint](12-build-plan/THREE-DAY-BUILD-PLAN.md)  
+**Day 1 frontend acceptance:** [Frontend completion checklist](12-build-plan/DAY-1-FRONTEND-ACCEPTANCE.md)  
 **Mobile frontend:** [Expo app entry](App.tsx) · [Main mobile experience](src/Main.tsx) · [Frontend setup](frontend/README.md)
 
 The three-day target is a working pilot build, not a claim of global-scale readiness or production certification. Features count as complete only after their real end-to-end journeys work against persisted backend data and appropriate permissions.
