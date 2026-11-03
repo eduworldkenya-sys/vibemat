@@ -1,12 +1,12 @@
 # VibeMat Social Network Product Specification
 
-**Status:** Product discovery / blueprint  
+**Status:** Owner-approved product specification; implementation authorised by the later three-day build plan  
 **Version:** 0.3  
 **Brand direction:** VibeMat — As We Move.  
 **Product philosophy:** Everyone Moves.  
 **Product definition:** A social media network for transport and the wider movement ecosystem.
 
-This document records decisions explicitly confirmed by the product owner and separates them from recommendations and unresolved decisions. It does not authorise application implementation or deployment.
+This document records decisions explicitly confirmed by the product owner and separates them from recommendations and unresolved decisions. Implementation is authorised under the later [Three-Day Build Plan](../12-build-plan/THREE-DAY-BUILD-PLAN.md); this specification alone does not certify implementation or deployment.
 
 ## 1. Product thesis
 
