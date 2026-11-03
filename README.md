@@ -9,10 +9,13 @@ VibeMat connects people, creators, commuters, vehicles, routes, stages, places, 
 
 ## Project status
 
-**Stage:** Product discovery and documentation  
-**Current rule:** No application coding or deployment until the product blueprint is sufficiently defined.  
+**Stage:** Three-day build sprint authorised  
+**Delivery target:** Day 1 frontend (2026-11-03), Day 2 backend (2026-11-04), Day 3 integration, verification, and pilot finish (2026-11-05).  
 **Source of truth:** This repository.  
-**Current social specification:** [Social Network Product Specification v0.3](11-social-network/SOCIAL-NETWORK-PRODUCT-SPECIFICATION.md)
+**Current social specification:** [Social Network Product Specification v0.3](11-social-network/SOCIAL-NETWORK-PRODUCT-SPECIFICATION.md)  
+**Build plan:** [VibeMat Three-Day Build Sprint](12-build-plan/THREE-DAY-BUILD-PLAN.md)
+
+The three-day target is a working pilot build, not a claim of global-scale readiness or production certification. Features count as complete only after their real end-to-end journeys work against persisted backend data and appropriate permissions.
 
 VibeMat is one mobile-first social network—not a collection of separate apps for commuters, drivers, matatus, buses, or businesses. Anyone can join and participate, subject to platform rules. One account can support optional additional profiles and pages.
 
@@ -33,8 +36,11 @@ The consumer product is an Android and iOS app. Its home experience is hybrid: s
 - Businesses from all sectors may participate.
 - Direct messages and community discussions are part of the product direction.
 - The consumer product is an app, not a consumer website.
+- Users may follow multiple places independently of their physical location.
+- Global discovery is not restricted to a user's current location.
+- The owner has selected a three-day build sequence: frontend, backend, then integration and product completion.
 
-See the social specification for the distinction between agreed decisions, recommendations, and open questions.
+See the social specification and build plan for the distinction between agreed decisions, recommendations, and open questions.
 
 ## Hybrid product foundations
 
@@ -44,6 +50,12 @@ See the social specification for the distinction between agreed decisions, recom
 4. **Data and trust engine:** source, timestamps, freshness, permissions, verification, privacy, and history underpin social and mobility surfaces.
 
 The map is a major shared interface, but it does not replace the social feed or define the whole product.
+
+## Architecture direction
+
+Use a mobile client with a modular backend and managed infrastructure. Reuse established video, map, storage, authentication, realtime, and push-notification services rather than reinventing commodity technology. Begin with a modular monolith and durable background processing; do not introduce microservices without demonstrated need.
+
+The build plan lists candidate technologies and integrations. Provider selection, credentials, pricing, and exact authentication method must be verified before implementation. The product direction is no OTP and a customised email-based approach; the precise email authentication method remains open.
 
 ## Non-negotiable money boundary
 
@@ -55,6 +67,7 @@ VibeMat will not collect, hold, escrow, settle, or distribute passenger fares or
 - [Product architecture](01-product-architecture/PRODUCT-ARCHITECTURE.md)
 - [Social network product specification v0.3](11-social-network/SOCIAL-NETWORK-PRODUCT-SPECIFICATION.md)
 - [Global, local, and multi-place discovery decision](11-social-network/GLOBAL-LOCAL-PLACE-DISCOVERY-DECISION.md)
+- [Three-day build sprint](12-build-plan/THREE-DAY-BUILD-PLAN.md)
 - [Ken: passenger experience](02-ken-passenger-experience/KEN-PASSENGER-EXPERIENCE.md)
 - [Transport ecosystem and activities](03-transport-ecosystem/TRANSPORT-ACTIVITIES.md)
 - [Discovery and intelligence](04-discovery-intelligence/DISCOVERY-INTELLIGENCE.md)
@@ -76,7 +89,7 @@ New ideas should be documented with their problem, intended behaviour, affected 
 
 ## Working method
 
-We are writing and reviewing the product blueprint before building. No app implementation, backend, integrations, or deployment work is authorised by this documentation stage.
+The repository is the single source of truth for product scope, architecture decisions, implementation notes, and verification evidence. The owner-authorised build sequence is frontend on Day 1, backend on Day 2, and integration, testing, and pilot completion on Day 3. Reuse proven services, work in reviewable changes, and do not bypass security, privacy, or real end-to-end verification to meet the timebox.
 
 ## Core product test: Everyone Moves
 
@@ -86,4 +99,4 @@ The product must preserve each participant's permissions, responsibilities, priv
 
 ## Reconciliation note
 
-The repository contains earlier map-first and transport-discovery assumptions. The Social Network Product Specification v0.3 records the newer owner-confirmed social-media direction and hybrid home decision. Where older documents conflict with v0.3, do not silently treat the older assumption as current; reconcile those documents during the next documentation pass.
+The repository contains earlier map-first and transport-discovery assumptions. The Social Network Product Specification v0.3 records the newer owner-confirmed social-media direction and hybrid home decision. Where older documents conflict with v0.3 and the three-day build plan, the newer owner-approved decisions take precedence; reconcile older documents without silently changing their historical record.
