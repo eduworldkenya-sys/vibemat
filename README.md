@@ -54,6 +54,7 @@ VibeMat will not collect, hold, escrow, settle, or distribute passenger fares or
 - [Product vision](00-vision/PRODUCT-VISION.md)
 - [Product architecture](01-product-architecture/PRODUCT-ARCHITECTURE.md)
 - [Social network product specification v0.3](11-social-network/SOCIAL-NETWORK-PRODUCT-SPECIFICATION.md)
+- [Global, local, and multi-place discovery decision](11-social-network/GLOBAL-LOCAL-PLACE-DISCOVERY-DECISION.md)
 - [Ken: passenger experience](02-ken-passenger-experience/KEN-PASSENGER-EXPERIENCE.md)
 - [Transport ecosystem and activities](03-transport-ecosystem/TRANSPORT-ACTIVITIES.md)
 - [Discovery and intelligence](04-discovery-intelligence/DISCOVERY-INTELLIGENCE.md)
